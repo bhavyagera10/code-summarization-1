@@ -1,0 +1,5138 @@
+code:
+public float get scroll width ( ) {
+ return area width ;
+ }
+comment:
+START returns the width of the scrolled viewport . END
+--generate--
+START gets the width of the UNK UNK . END
+START gets the UNK width . END
+START gets the width of the UNK . END
+START gets the width of the UNK UNK . @return END
+START gets the width of the UNK UNK . @return the width of the UNK END
+
+code:
+public boolean need to check ( ) {
+ return this . auto create . auto create index ;
+ }
+comment:
+START do we really need to check if an index should be auto created ? END
+--generate--
+START return whether the request should be used for the UNK . END
+START return whether the request should be used for the UNK UNK . END
+START return whether the request should be used for the UNK END
+START return whether the request should be used to UNK the UNK END
+START return whether the request should be UNK to the UNK END
+
+code:
+public builder put ( string setting prefix , string group name , string [ ] settings , string [ ] values ) throws settings exception {
+ if ( settings . length != values . length ) {
+ throw new settings exception ( String ) ;
+ }
+ for ( int i = DecimalInteger ;
+ i < settings . length ;
+ i ++ ) {
+ if ( values [ i ] == null ) {
+ continue ;
+ }
+ put ( setting prefix + String + group name + String + settings [ i ] , values [ i ] ) ;
+ }
+ return this ;
+ }
+comment:
+START sets the setting group . END
+--generate--
+START sets the value to the document . END
+START sets the value for the UNK . END
+START sets a new value to the document . END
+START sets the value for the UNK . @param key the value to set END
+START sets the value for the UNK . @param key the value to use END
+
+code:
+private void send preface ( channel handler context ctx ) {
+ if ( preface sent || ! ctx . channel ( ) . is active ( ) ) {
+ return ;
+ }
+ preface sent = true ;
+ if ( ! connection ( ) . is server ( ) ) {
+ ctx . write ( connection preface buf ( ) ) . add listener ( channel future listener . UNK on_ e ) ;
+ }
+ encoder . write settings ( ctx , initial settings , ctx . new promise ( ) ) . add listener ( channel future listener . UNK on_ e ) ;
+ }
+comment:
+START sends the http/2 connection UNK upon UNK of the connection , if not already sent . END
+--generate--
+START send a message to the event . END
+START send a message to the event UNK . END
+START send a message to the session . END
+START send a message to the connection . END
+START send a message to the notification . END
+
+code:
+public static runtime exception propagate ( throwable throwable ) {
+ propagate if possible ( preconditions . check not null ( throwable ) ) ;
+ throw new runtime exception ( throwable ) ;
+ }
+comment:
+START this method always throws an exception . END
+--generate--
+START @param handler the message to use . @return the builder END
+START @param handler the message to set END
+START @param handler the message to set @return END
+START @param handler the message to add END
+START @param handler the message to use END
+
+code:
+public int get item ( final int item ) {
+ return items [ item ] ;
+ }
+comment:
+START </i> @param item the index a constant pool item . END
+--generate--
+START @param index the index of the item to set . END
+START @param index the value of the item . END
+START @param index the index of the item . END
+START @param index the value to set . END
+START @param index the index of the item to set END
+
+code:
+public static wifi p2p service request new instance ( int protocol type ) {
+ return new wifi p2p service request ( protocol type , null ) ;
+ }
+comment:
+START create a service discovery request . END
+--generate--
+START creates a new instance of the request . END
+START create a new instance of the request . END
+START creates a new request request . END
+START create a new request instance . END
+START creates a new request instance . END
+
+code:
+@ override public void attribute error ( string attr name , string message ) {
+ reporter . attribute error ( attr name , message ) ;
+ }
+comment:
+START convenience function for subclasses to report UNK errors in the current rule . END
+--generate--
+START @throws illegal argument exception if the error does not found . END
+START @throws illegal argument exception if the error does not have an error . END
+START @throws illegal argument exception if the error does not have the ' code . END
+START @throws illegal argument exception if the error does not have the ' . END
+START @throws illegal exception END
+
+code:
+public void set transaction interceptor ( transaction interceptor interceptor ) {
+ this . transaction interceptor = interceptor ;
+ }
+comment:
+START set the transaction interceptor to use for this advisor . END
+--generate--
+START set the connection that will be used for UNK UNK . END
+START sets the connection that will be used for UNK . END
+START set the connection that will be used for UNK . END
+START set the connection that will be used for UNK the transaction . END
+START set the connection that will be used for UNK UNK . @param registry the transaction factory END
+
+code:
+@ generated public test entity get test entity ( ) {
+ long __key = this . test id ;
+ if ( test UNK key == null || ! test UNK key . equals ( __key ) ) {
+ __throw if detached ( ) ;
+ test entity dao target dao = dao session . get test entity dao ( ) ;
+ test entity test entity new = target dao . load ( __key ) ;
+ synchronized ( this ) {
+ test entity = test entity new ;
+ test UNK key = __key ;
+ }
+ }
+ return test entity ;
+ }
+comment:
+START UNK relationship , resolved on first access . END
+--generate--
+START the UNK must be called on the UNK thread . END
+START UNK must be called on the UNK listener . END
+START UNK must be called on the UNK thread . END
+START the UNK must be called on the UNK callback . END
+START UNK must be called on the UNK callback . END
+
+code:
+public file file ( ) {
+ throw new gdx runtime exception ( String ) ;
+ }
+comment:
+START returns a UNK file that represents this file handle . END
+--generate--
+START creates a file for the file file . END
+START creates a file file for this file . END
+START returns a file for the file file . END
+START creates a file for this file file . END
+START creates a file for the file file , or null if it is not . END
+
+code:
+public matrix refresh ( matrix new matrix , view chart , boolean invalidate ) {
+ mmatrix touch . set ( new matrix ) ;
+ limit trans and scale ( mmatrix touch , mcontent rect ) ;
+ if ( invalidate ) chart . invalidate ( ) ;
+ new matrix . set ( mmatrix touch ) ;
+ return new matrix ;
+ }
+comment:
+START call this method to refresh the graph with a given matrix @param new matrix @return END
+--generate--
+START UNK the UNK UNK END
+START UNK the UNK with the UNK @param UNK END
+START UNK the UNK UNK . END
+START UNK the UNK UNK @param UNK END
+START UNK the UNK UNK UNK END
+
+code:
+public int get keep alive seconds ( ) {
+ synchronized ( this . pool size monitor ) {
+ return this . keep alive seconds ;
+ }
+ }
+comment:
+START return the thread pool executor 's UNK seconds . END
+--generate--
+START return the number of UNK UNK . END
+START return the number of UNK UNK END
+START return the number of UNK that should be executed . END
+START return the number of UNK that should be used . END
+START return the number of UNK that should be executed . @return the UNK document END
+
+code:
+public int get highlight color ( ) {
+ return mhighlight color ;
+ }
+comment:
+START @return a hexadecimal color value . END
+--generate--
+START @return the color color END
+START returns the color of the color . END
+START @return the color of the color . END
+START returns the color of the color . @return the color END
+START @return the color of the color END
+
+code:
+public void remove altitude ( ) {
+ altitude = DecimalFloatingPoint ;
+ mfields mask &= ~ has_ UNK k ;
+ }
+comment:
+START remove the UNK from this location . END
+--generate--
+START UNK the state of this UNK . END
+START removes the UNK from this UNK . END
+START removes the UNK of this UNK . END
+START UNK the UNK of this UNK . END
+START UNK the UNK . END
+
+code:
+public int get int value ( ) {
+ return integer . parse int ( mcurrent value ) ;
+ }
+comment:
+START @return the integer value of the entry . END
+--generate--
+START return the value of the key . END
+START gets the value of the key . END
+START return the value of the value . END
+START return the value value of the key . END
+START return the value value of the key . @return the value of the UNK END
+
+code:
+public geo distance range query builder set validation method ( geo validation method method ) {
+ this . validation method = method ;
+ return this ;
+ }
+comment:
+START set validation method for coordinates . END
+--generate--
+START sets the specify to be UNK for this context . END
+START sets the specify to be used for UNK UNK . END
+START sets the specify to be used for UNK . END
+START sets the specify to be UNK for this class . END
+START sets the specify to be used for UNK UNK END
+
+code:
+public static etc1 data encode image ( pixmap pixmap ) {
+ int pixel size = get pixel size ( pixmap . get format ( ) ) ;
+ byte buffer compressed data = encode image ( pixmap . get pixels ( ) , DecimalInteger , pixmap . get width ( ) , pixmap . get height ( ) , pixel size ) ;
+ buffer utils . new unsafe byte buffer ( compressed data ) ;
+ return new etc1 data ( pixmap . get width ( ) , pixmap . get height ( ) , compressed data , DecimalInteger ) ;
+ }
+comment:
+START encodes the image via the UNK compression scheme . END
+--generate--
+START creates a new image based on the UNK buffer . END
+START creates a new image based on the UNK type . END
+START creates a new image based on the UNK header . END
+START creates a new image buffer . END
+START creates a new image based on the UNK type END
+
+code:
+private meta data random meta data UNK ( final meta data meta data ) {
+ return random parts ( meta data , String , new random part < meta data . custom > ( ) {
+ @ override public immutable open map < string , meta data . custom > parts ( meta data meta data ) {
+ return meta data . UNK ( ) ;
+ }
+ @ override public meta data . builder put ( meta data . builder builder , meta data . custom part ) {
+ return builder . put custom ( part . type ( ) , part ) ;
+ }
+ @ override public meta data . builder remove ( meta data . builder builder , string name ) {
+ if ( index graveyard . e . equals ( name ) ) {
+ return builder . index graveyard ( index graveyard . builder ( ) . build ( ) ) ;
+ }
+ else {
+ return builder . remove custom ( name ) ;
+ }
+ }
+ @ override public meta data . custom random create ( string name ) {
+ if ( random boolean ( ) ) {
+ return new repositories meta data ( ) ;
+ }
+ else {
+ return index graveyard tests . create random ( ) ;
+ }
+ }
+ @ override public meta data . custom random change ( meta data . custom part ) {
+ return part ;
+ }
+ }
+ ) ;
+ }
+comment:
+START randomly adds , deletes or updates repositories in the metadata END
+--generate--
+START create a new shard data . END
+START create a new index from the UNK index . END
+START create a new index of the UNK UNK . END
+START create a new index from the UNK index END
+START create a new index from the index END
+
+code:
+public void on draw shadow ( canvas canvas ) {
+ final view view = view . get ( ) ;
+ if ( view != null ) {
+ view . draw ( canvas ) ;
+ }
+ else {
+ log . e ( view . view_ log_ g , String ) ;
+ }
+ }
+comment:
+START draws the shadow image . END
+--generate--
+START specify the layout for the view . END
+START specify the layout for the UNK . END
+START specify the layout for the view . @param view END
+START updates the view . END
+START specify the layout for the view . @param view the view to display END
+
+code:
+arc [ ] [ ] group UNK by first vertex ( arc [ ] UNK ) {
+ int n = get count ( ) + DecimalInteger ;
+ arc [ ] [ ] result = new arc [ n ] [ ] ;
+ int [ ] sizes = new int [ n ] ;
+ for ( arc arc : UNK ) {
+ sizes [ arc . span . min ] ++ ;
+ }
+ for ( int i = DecimalInteger ;
+ i < sizes . length ;
+ i ++ ) {
+ result [ i ] = new arc [ sizes [ i ] ] ;
+ }
+ arrays . fill ( sizes , DecimalInteger ) ;
+ for ( arc arc : UNK ) {
+ int i = arc . span . min ;
+ result [ i ] [ sizes [ i ] ++ ] = arc ;
+ }
+ return result ;
+ }
+comment:
+START this is linear in the number of UNK . END
+--generate--
+START gets the UNK of the UNK UNK . END
+START get the UNK of the UNK UNK . END
+START return the UNK of the UNK UNK . END
+START get the UNK of the UNK . END
+START gets the UNK of the UNK UNK . @param UNK the UNK END
+
+code:
+public map < string , string > get txt record ( ) {
+ return UNK record ;
+ }
+comment:
+START return UNK record data . @return UNK record data . END
+--generate--
+START returns the UNK UNK . END
+START returns the UNK of the UNK UNK . END
+START returns the UNK of the UNK . END
+START returns the UNK UNK . @return the UNK UNK END
+START returns the UNK of the UNK UNK . @return the UNK END
+
+code:
+public void test remove app UNK UNK ( ) throws reflective operation exception {
+ package setting ps1 = generate fake package setting ( String ) ;
+ mpackages map . put ( ps1 . name , ps1 ) ;
+ package setting ps2 = generate fake package setting ( String ) ;
+ mpackages map . put ( ps2 . name , ps2 ) ;
+ array set < public key > signing keys = new array set < public key > ( ) ;
+ public key key a = package parser . parse public key ( key set strings . cts key set public key a ) ;
+ signing keys . add ( key a ) ;
+ ksms . add signing key set to package pw ( ps1 , signing keys ) ;
+ ksms . add signing key set to package pw ( ps2 , signing keys ) ;
+ ksms . remove app key set data pw ( ps1 . name ) ;
+ assert equals ( DecimalInteger , key set utils . get key set ref count ( ksms , DecimalInteger ) ) ;
+ assert equals ( DecimalInteger , key set utils . get pub key ref count ( ksms , DecimalInteger ) ) ;
+ long sparse array < array set < long > > ks mapping = key set utils . get key set mapping ( ksms ) ;
+ assert equals ( DecimalInteger , ks mapping . size ( ) ) ;
+ assert equals ( package key set data . UNK d , ps1 . key set data . get proper signing key set ( ) ) ;
+ assert equals ( DecimalInteger , ps2 . key set data . get proper signing key set ( ) ) ;
+ }
+comment:
+START remove package and validate that UNK remain if defined UNK but have UNK UNK . END
+--generate--
+START check that we can not be null END
+START tests that we can not be null END
+START check that we can not be UNK END
+START tests that we can not be UNK END
+START tests that we can not be UNK and UNK UNK END
+
+code:
+public list < field > resolve fields with prefix ( optional < qualified name > prefix ) {
+ return visible fields . stream ( ) . filter ( input -> input . matches prefix ( prefix ) ) . collect ( to immutable list ( ) ) ;
+ }
+comment:
+START this method is used for select or UNK queries END
+--generate--
+START gets the fields UNK for the UNK UNK . END
+START gets the fields UNK for the UNK . END
+START creates the fields UNK that UNK UNK . END
+START gets the fields UNK for the UNK that is not UNK . END
+START gets the fields UNK for the UNK UNK END
+
+code:
+@ gwt incompatible public void test transformed UNK iteration uses backing list iteration only ( ) {
+ list < integer > random access list = lists . new array list ( UNK UNK t ) ;
+ list iterator < integer > sample list iterator = UNK UNK t . list iterator ( ) ;
+ @ suppress warnings ( String ) list < integer > list mock = mock ( list . class ) ;
+ when ( list mock . size ( ) ) . then return ( UNK UNK t . size ( ) ) ;
+ when ( list mock . list iterator ( DecimalInteger ) ) . then return ( sample list iterator ) ;
+ verify no more interactions ( list mock ) ;
+ list < string > transform = lists . transform ( list mock , UNK n ) ;
+ assert true ( iterables . elements equal ( transform , lists . transform ( random access list , UNK n ) ) ) ;
+ }
+comment:
+START this is UNK because the behavior is UNK UNK so it 's not expected to change . END
+--generate--
+START tests that we can UNK the UNK UNK . END
+START tests that we can UNK the UNK UNK UNK . END
+START tests that we can UNK the UNK UNK of a UNK . END
+START tests that we can UNK the UNK UNK of the UNK . END
+START tests that we can UNK the UNK of the UNK . END
+
+code:
+@ deprecated optional < duration > get health check validation timeout ( ) ;
+comment:
+START returns the timeout for UNK a response from the database during connection health checks . END
+--generate--
+START gets the UNK . END
+START returns the UNK . END
+START returns the shard . END
+START returns the UNK of this UNK . END
+START gets the UNK of this UNK . END
+
+code:
+public void flush ( ) {
+ super . free all ( UNK ) ;
+ UNK . clear ( ) ;
+ }
+comment:
+START frees all obtained instances . END
+--generate--
+START remove all UNK . END
+START UNK all UNK . END
+START remove all UNK UNK . END
+START removes all UNK . END
+START remove all the UNK . END
+
+code:
+public string get bundle id ( ) {
+ return bundle id ;
+ }
+comment:
+START returns the identifier of this bundle . END
+--generate--
+START returns the user id for this task . END
+START returns a user id for this task . END
+START returns the user id for this window . END
+START returns the user id for this node . END
+START returns a user id for this node . END
+
+code:
+@ test public void test thread execution timeout async fallback failure ( ) {
+ test execution timeout fallback failure ( execution isolation strategy . d , true ) ;
+ }
+comment:
+START test a thread command execution timeout where the command implemented get fallback but it fails asynchronously . END
+--generate--
+START test a command execution timeout timeout the command execution n't UNK but UNK fallback n't get fallback . END
+START test a command execution timeout timeout the command execution n't UNK but UNK fallback n't UNK fallback . END
+START test a command execution timeout timeout the command execution n't UNK but UNK n't get fallback . END
+START test a command execution execution timeout timeout the command execution n't UNK but UNK fallback . END
+START test a command execution execution timeout timeout the command execution n't UNK but UNK fallback n't UNK . END
+
+code:
+public char sequence get carrier name ( ) {
+ return this . mcarrier name ;
+ }
+comment:
+START @return the name displayed to the user that identifies subscription provider name END
+--generate--
+START return the name of the service to use . END
+START return the name of the descriptor to the bean . END
+START return the name of the service to use to . END
+START return the name of the service to use END
+START return the name of the descriptor to the bean . @return the name END
+
+code:
+public string to uri string ( ) {
+ return build ( false ) . encode ( ) . to uri string ( ) ;
+ }
+comment:
+START build a uri string . END
+--generate--
+START returns a string representation of this UNK . END
+START return a string representation of this UNK . END
+START returns a string representation of this context . END
+START returns a string representation of this UNK . @return the description END
+START returns a string representation of this UNK . @return the description for the UNK END
+
+code:
+public shard id get shard id ( ) {
+ return shard id ;
+ }
+comment:
+START the shard id of the UNK shard . END
+--generate--
+START returns the shard id . END
+START returns the shard id END
+START gets the shard id . END
+START the shard id . END
+START returns the id of the shard . END
+
+code:
+public builder set parent qualified name ( int value ) {
+ bit field0_ |= 0x00000001 ;
+ parent qualified name_ = value ;
+ on changed ( ) ;
+ return this ;
+ }
+comment:
+START optional int32 UNK = NUMBER -lsb- default = -1 -rsb- END
+--generate--
+START optional int32 UNK = NUMBER END
+START optional int32 UNK = NUMBER -lsb- default = NUMBER -rsb- END
+START required int32 UNK = NUMBER END
+START optional int32 UNK = NUMBER -lsb- id = NUMBER -rsb- END
+START optional int32 name = NUMBER END
+
+code:
+@ target api ( build . version_ s . jelly_ bean_ r1 ) public static bitmap render script blur ( context context , bitmap src , float radius ) {
+ if ( is empty bitmap ( src ) ) return null ;
+ render script rs = null ;
+ try {
+ rs = render script . create ( context ) ;
+ rs . set message handler ( new render script . UNK handler ( ) ) ;
+ allocation input = allocation . create from bitmap ( rs , src , allocation . UNK control . UNK e , allocation . usage_ t ) ;
+ allocation output = allocation . create typed ( rs , input . get type ( ) ) ;
+ script intrinsic blur blur script = script intrinsic blur . create ( rs , element . UNK ( rs ) ) ;
+ if ( radius > DecimalInteger ) {
+ radius = DecimalFloatingPoint ;
+ }
+ else if ( radius <= DecimalInteger ) {
+ radius = DecimalFloatingPoint ;
+ }
+ blur script . set input ( input ) ;
+ blur script . set radius ( radius ) ;
+ blur script . for each ( output ) ;
+ output . copy to ( src ) ;
+ }
+ finally {
+ if ( rs != null ) {
+ rs . destroy ( ) ;
+ }
+ }
+ return src ;
+ }
+comment:
+START render UNK UNK UNK UNK UNK @param context ä¸Šä¸‹?–‡ @param src æºå›¾?‰‡ @param radius UNK UNK UNK ? END
+--generate--
+START UNK ?? UNK ?? UNK ?? UNK ?? UNK ?? @return UNK ?? UNK ? END
+START UNK ?? UNK ?? UNK ?? UNK ?? UNK ?? @return UNK ? UNK ? END
+START UNK ?? UNK ?? UNK ?? UNK ?? UNK ?? UNK ? @return UNK ? END
+START UNK ?? UNK ?? UNK ?? UNK ?? UNK ?? UNK ?? UNK ?? UNK ? END
+START UNK ?? UNK ?? UNK ?? UNK ?? UNK ?? UNK ? @return UNK ? UNK END
+
+code:
+public static int video height ( string file path ) throws exception {
+ log . v ( g , String + file path ) ;
+ int video height = DecimalInteger ;
+ synchronized ( lock ) {
+ initialize message looper ( ) ;
+ try {
+ lock . wait ( wait_ for_ command_ to_ e ) ;
+ }
+ catch ( exception e ) {
+ log . v ( g , String ) ;
+ return DecimalInteger ;
+ }
+ }
+ try {
+ mmedia player . set data source ( file path ) ;
+ mmedia player . set display ( media framework test . msurface view . get holder ( ) ) ;
+ mmedia player . set on video size changed listener ( mon video size changed listener ) ;
+ synchronized ( video size changed ) {
+ try {
+ mmedia player . prepare ( ) ;
+ mmedia player . start ( ) ;
+ video size changed . wait ( wait_ for_ command_ to_ e ) ;
+ }
+ catch ( exception e ) {
+ log . v ( g , String ) ;
+ }
+ }
+ video height = mmedia player . get video height ( ) ;
+ terminate message looper ( ) ;
+ }
+ catch ( exception e ) {
+ log . e ( g , e . get message ( ) ) ;
+ }
+ return video height ;
+ }
+comment:
+START register the video size changed listener END
+--generate--
+START UNK the UNK UNK . END
+START UNK the event UNK . END
+START UNK the UNK mode . END
+START UNK the UNK UNK UNK . END
+START UNK the UNK . END
+
+code:
+public alarm clock info get next alarm clock ( ) {
+ return get next alarm clock ( user handle . my user id ( ) ) ;
+ }
+comment:
+START gets information about the next alarm clock currently scheduled . END
+--generate--
+START gets the current task mode for this UNK . END
+START gets the current task mode for this , if any . END
+START gets the current task mode for the current state . END
+START gets the current task mode for this , if it . END
+START gets the current task mode for this , if any . @hide END
+
+code:
+public char sequence get char sequence text ( ) {
+ return text ;
+ }
+comment:
+START gets the text which should be UNK . END
+--generate--
+START returns the text of the text . END
+START return the text of the text . END
+START gets the text of the text . END
+START returns the text of the item . END
+START returns the text of the UNK . END
+
+code:
+public int get removed count ( ) {
+ return UNK count ;
+ }
+comment:
+START gets the number of removed characters . @return the number of removed characters . END
+--generate--
+START returns the number of active UNK UNK . END
+START returns the number of UNK that the UNK should be UNK . END
+START returns the number of UNK that the UNK should be UNK on . END
+START returns the number of UNK that the UNK should be UNK on the last response . END
+START returns the number of UNK that the UNK should be UNK on the current amount END
+
+code:
+public void set item label ( string item label ) {
+ assert . has text ( item label , String ) ;
+ this . item label = item label ;
+ }
+comment:
+START may be a runtime expression . END
+--generate--
+START may be a runtime expression . END
+START may be the runtime expression . END
+START may be null . END
+START may be a runtime attribute . END
+START may be a runtime code . END
+
+code:
+boolean is UNK than or equal to ( state other ) {
+ int my size = this . bit count + ( high level encoder . UNK e [ this . mode ] [ other . mode ] > > DecimalInteger ) ;
+ if ( other . binary shift byte count > DecimalInteger && ( this . binary shift byte count == DecimalInteger || this . binary shift byte count > other . binary shift byte count ) ) {
+ my size += DecimalInteger ;
+ }
+ return my size <= other . bit count ;
+ }
+comment:
+START state under all possible UNK . END
+--generate--
+START called are been UNK . END
+START called by all UNK UNK . END
+START has been UNK . END
+START called by UNK UNK . END
+START called are UNK . END
+
+code:
+public void set gravity ( vec2 gravity ) {
+ UNK . set ( gravity ) ;
+ }
+comment:
+START change the global gravity vector . @param gravity END
+--generate--
+START sets the direction . END
+START sets the animation . END
+START sets the bounds . END
+START sets the bounds of the animation . END
+START sets the bounds of the animation END
+
+code:
+public boolean is identity ( ) {
+ for ( int i = DecimalInteger , k = DecimalInteger ;
+ i < DecimalInteger ;
+ i ++ ) {
+ for ( int j = DecimalInteger ;
+ j < DecimalInteger ;
+ j ++ , k ++ ) {
+ if ( values [ k ] != ( ( i == j ) ? DecimalInteger : DecimalInteger ) ) {
+ return false ;
+ }
+ }
+ }
+ return true ;
+ }
+comment:
+START returns whether or not the matrix is identity . END
+--generate--
+START returns true if the view is UNK . END
+START returns true if the UNK is UNK . END
+START returns true if the view is currently UNK . END
+START returns true if the node is UNK . END
+START returns true if the view is UNK . @return true if the element is not UNK . END
+
+code:
+public void debug ( string tag , string message , throwable exception ) ;
+comment:
+START logs a debug message to the console or UNK END
+--generate--
+START send a message with a message . END
+START log a message with a message . END
+START send a message with the message . END
+START send a message with the message END
+START send a message with a message END
+
+code:
+public void add UNK ( database populator ... UNK ) {
+ this . UNK . add all ( arrays . as list ( UNK ) ) ;
+ }
+comment:
+START add one or more UNK to the list of delegates . END
+--generate--
+START add an exception to the UNK of the UNK . END
+START add an exception to be used to the UNK of the UNK . END
+START add an exception to be used to the UNK . END
+START add an exception to the UNK of the UNK . @param factory the UNK to add END
+START add an exception to the UNK of the UNK . @param factory the UNK END
+
+code:
+public create snapshot request builder set settings ( string source ) {
+ request . settings ( source ) ;
+ return this ;
+ }
+comment:
+START @param source repository-specific snapshot settings @return this builder END
+--generate--
+START sets snapshot settings . @param settings snapshot settings @return this builder END
+START sets repository settings . @param settings snapshot settings @return this builder END
+START sets snapshot settings . @param settings repository settings @return this builder END
+START sets snapshot settings . @param settings snapshot settings @return this request END
+START sets repository settings @param settings snapshot settings @return this builder END
+
+code:
+public boolean is test ( ) {
+ return children . is empty ( ) ;
+ }
+comment:
+START @return true if the receiver is an atomic test END
+--generate--
+START returns true if the user is UNK . END
+START returns true if the transaction is UNK . END
+START returns true if the device is UNK . END
+START returns true if the session is UNK . END
+START returns true if the user is UNK to the user . END
+
+code:
+protected object do invoke ( method invocation invocation , object port stub ) throws throwable {
+ method method = invocation . get method ( ) ;
+ try {
+ return method . invoke ( port stub , invocation . get arguments ( ) ) ;
+ }
+ catch ( invocation target exception ex ) {
+ throw ex . get target exception ( ) ;
+ }
+ catch ( throwable ex ) {
+ throw new remote proxy failure exception ( String + method , ex ) ;
+ }
+ }
+comment:
+START perform a jax- s service invocation on the given port stub . END
+--generate--
+START return the given handler for the given handler . END
+START return the given handler from the given handler . END
+START return the given handler for the given request . END
+START return the given handler for the given context . END
+START return the given handler for the given bean . END
+
+code:
+public cpp link action builder set native deps ( boolean is native deps ) {
+ this . is native deps = is native deps ;
+ return this ;
+ }
+comment:
+START sets whether this link action is used for a native dependency library . END
+--generate--
+START sets whether the configuration should be UNK . END
+START sets whether the configuration should be used for UNK UNK . END
+START sets whether the configuration should be used for UNK . END
+START sets whether the configuration should be used for the UNK . END
+START sets whether the configuration should be used for UNK UNK END
+
+code:
+default void on pre fetch phase ( search context search context ) {
+ }
+comment:
+START executed before the fetch phase is executed @param search context the current search context END
+--generate--
+START called when the UNK request should be executed . END
+START called when the UNK query is executed . END
+START called when the UNK request should be executed . @param request the context END
+START called when the UNK request should be executed . @param request the context to use END
+START called when the UNK request should be executed . @param request the request to use END
+
+code:
+public static int get action bar height ( activity activity ) {
+ typed value tv = new typed value ( ) ;
+ if ( activity . get theme ( ) . resolve attribute ( android . r . attr . action bar size , tv , true ) ) {
+ return typed value . complex to dimension pixel size ( tv . data , activity . get resources ( ) . get display metrics ( ) ) ;
+ }
+ return DecimalInteger ;
+ }
+comment:
+START ? Ž·?– action UNK @param activity activity @return action UNK END
+--generate--
+START gets the UNK of the view . END
+START gets the UNK of the task . END
+START get a UNK of the view . END
+START gets the UNK of the UNK . END
+START gets the UNK of the view . @param UNK the id END
+
+code:
+public exception get exception ( ) {
+ return ( exception ) get cause ( ) ;
+ }
+comment:
+START return the wrapped UNK . END
+--generate--
+START return the UNK UNK . END
+START return the UNK object . END
+START return the underlying UNK . END
+START return the UNK message . END
+START return the UNK UNK . @return the UNK END
+
+code:
+public list < t > execute ( long p1 ) throws data access exception {
+ return execute ( p1 , null ) ;
+ }
+comment:
+START convenient method to execute with a single long parameter . @param UNK single long parameter END
+--generate--
+START create a single object with the given parameter . @param args END
+START create a single object with the given parameter . @param args the type END
+START create a single object with a single object . @param UNK the type END
+START create a single object with a single object . @param UNK the type @param args END
+START create a single object with a single object . @param UNK the type to add END
+
+code:
+public static fields find by name ( string name ) {
+ return by name . get ( name ) ;
+ }
+comment:
+START find the _ fields constant that matches name , or null if its not found . END
+--generate--
+START find the _ fields constant that matches name , or null if its not found . END
+START find the fields constant that matches name , or null if its not found . END
+START find the _ fields constant , matches name , or null if its not found . END
+START find the _ fields constant that matches name , or null if not found . END
+START find the _ fields constant that matches name , or null if not not found . END
+
+code:
+boolean set filter ( task filter filter ) {
+ array list < task > prev filtered tasks = new array list < > ( mfiltered tasks ) ;
+ filter = filter ;
+ update filtered tasks ( ) ;
+ if ( ! prev filtered tasks . equals ( mfiltered tasks ) ) {
+ return true ;
+ }
+ else {
+ return false ;
+ }
+ }
+comment:
+START sets the task filter , UNK the current touch state END
+--generate--
+START sets the list of the view to use . END
+START sets the list of the view that should be executed . END
+START sets the list of the view that should be used for the UNK . END
+START sets the list of the view that should be used in the UNK . END
+START sets the list of the view that should be used in the task . END
+
+code:
+@ non null public account and user [ ] get running accounts ( ) {
+ final int [ ] running user ids ;
+ try {
+ running user ids = activity manager native . get default ( ) . get running user ids ( ) ;
+ }
+ catch ( remote exception e ) {
+ throw new runtime exception ( e ) ;
+ }
+ return get accounts ( running user ids ) ;
+ }
+comment:
+START returns accounts for all running users . @hide END
+--generate--
+START return the list of all the UNK , if any . END
+START return the list of all the UNK UNK . END
+START return the list of the UNK mode . END
+START return the list of all the UNK set . END
+START return the list of all the UNK , if any . @hide END
+
+code:
+public int length ( ) {
+ int length ;
+ if ( head < tail ) {
+ length = header fields . length - tail + head ;
+ }
+ else {
+ length = head - tail ;
+ }
+ return length ;
+ }
+comment:
+START return the number of header fields in the dynamic table . END
+--generate--
+START returns the size of the table . END
+START returns the size of the table . @return the number of bytes . END
+START returns the size of the table . @return the number of bytes END
+START returns the size of the table . @return END
+START returns the size of the table . @return the number of bytes for this UNK END
+
+code:
+public string get data timestamp ( ) {
+ return preference manager . get default shared preferences ( context ) . get string ( UNK key_ data_ p , default_ p ) ;
+ }
+comment:
+START returns the timestamp of the data we have in the content provider . END
+--generate--
+START gets the UNK UNK . END
+START gets the UNK version of the UNK . END
+START gets the UNK version of the user . END
+START gets the UNK UNK the UNK . END
+START return the UNK UNK the UNK . END
+
+code:
+public simple query string builder flags ( simple query string flag ... flags ) {
+ if ( flags != null && flags . length > DecimalInteger ) {
+ int value = DecimalInteger ;
+ for ( simple query string flag flag : flags ) {
+ value |= flag . value ;
+ }
+ this . flags = value ;
+ }
+ else {
+ this . flags = default_ s ;
+ }
+ return this ;
+ }
+comment:
+START specify the enabled features of the simple query string . defaults to all if none are specified . END
+--generate--
+START used to be null . END
+START sets the settings to be used for UNK UNK . END
+START sets the settings to be used for UNK . END
+START sets the settings to be used for each UNK . END
+START sets the settings to be used for UNK END
+
+code:
+public terms aggregation builder include exclude ( include exclude include exclude ) {
+ this . include exclude = include exclude ;
+ return this ;
+ }
+comment:
+START set terms to include and exclude from the aggregation results END
+--generate--
+START specify whether to be used to UNK the document UNK . END
+START specify whether to be used to UNK the document . END
+START specify whether to be used to UNK the cache . END
+START specify whether to be used to UNK the group . END
+START specify whether to be used to UNK the document UNK . @param search the search types END
+
+code:
+public final void quit now ( ) {
+ sm handler smh = msm handler ;
+ if ( smh == null ) return ;
+ smh . quit now ( ) ;
+ }
+comment:
+START quit the state machine immediately all currently queued messages will be UNK . END
+--generate--
+START clears all the state . END
+START clear all the state . END
+START clears all the event . END
+START resets all the state . END
+START removes all the state . END
+
+code:
+public void set view text ( text view v , string text ) {
+ v . set text ( text ) ;
+ }
+comment:
+START @param v text view to receive text @param text the text to be set for the text view END
+--generate--
+START sets the text text . END
+START sets the text text text . END
+START set the text text . END
+START sets the text text of the text text . END
+START sets the text text of the text . END
+
+code:
+public static string html decode ( string input ) {
+ return html . from html ( input ) . to string ( ) ;
+ }
+comment:
+START UNK @param input UNK ? UNK ? @return UNK ? END
+--generate--
+START @param UNK the UNK UNK . @param UNK the string string . END
+START @param UNK the UNK UNK . @param UNK the string string END
+START @param UNK the UNK UNK . @param UNK the string string . @return the string UNK END
+START @param UNK the UNK UNK . END
+START @param UNK the UNK UNK . @param UNK the string string . @param UNK the string END
+
+code:
+public final void write raw file descriptor array ( file descriptor [ ] value ) {
+ if ( value != null ) {
+ int n = value . length ;
+ write int ( n ) ;
+ for ( int i = DecimalInteger ;
+ i < n ;
+ i ++ ) {
+ write raw file descriptor ( value [ i ] ) ;
+ }
+ }
+ else {
+ write int ( - DecimalInteger ) ;
+ }
+ }
+comment:
+START @param value the array of objects to be written . END
+--generate--
+START @param entry the entry to add . END
+START @param entry the entry to add END
+START @param entry END
+START @param entry the entry END
+START @param output the entry END
+
+code:
+protected final void notify stopped ( ) {
+ monitor . enter ( ) ;
+ try {
+ state previous = snapshot . state ;
+ if ( previous != g && previous != g ) {
+ illegal state exception failure = new illegal state exception ( String + previous ) ;
+ notify failed ( failure ) ;
+ throw failure ;
+ }
+ snapshot = new state snapshot ( d ) ;
+ terminated ( previous ) ;
+ }
+ finally {
+ monitor . leave ( ) ;
+ execute listeners ( ) ;
+ }
+ }
+comment:
+START implementing classes should invoke this method once their service has stopped . END
+--generate--
+START @return whether this view should be UNK . END
+START @return whether this view has been UNK . END
+START @return whether this view should be UNK END
+START @return whether this event has been UNK END
+START @return whether this view should be called on all UNK END
+
+code:
+private static void add zip64 extra ( zip file entry entry ) {
+ enum set < feature > features = entry . get feature set ( ) ;
+ extra data list extra = entry . get extra ( ) ;
+ int extra size = DecimalInteger ;
+ if ( features . contains ( feature . UNK e ) ) {
+ extra size += DecimalInteger ;
+ }
+ if ( features . contains ( feature . UNK e ) ) {
+ extra size += DecimalInteger ;
+ }
+ if ( features . contains ( feature . UNK t ) ) {
+ extra size += DecimalInteger ;
+ }
+ if ( extra size > DecimalInteger ) {
+ extra . remove ( ( short ) UNK ) ;
+ byte [ ] zip64 extra = new byte [ extra data . fixed_ data_ e + extra size ] ;
+ zip util . short to little endian ( zip64 extra , extra data . id_ t , ( short ) UNK ) ;
+ zip util . short to little endian ( zip64 extra , extra data . length_ t , ( short ) extra size ) ;
+ int offset = extra data . fixed_ data_ e ;
+ if ( features . contains ( feature . UNK e ) ) {
+ zip util . long to little endian ( zip64 extra , offset , entry . get size ( ) ) ;
+ offset += DecimalInteger ;
+ }
+ if ( features . contains ( feature . UNK e ) ) {
+ zip util . long to little endian ( zip64 extra , offset , entry . get compressed size ( ) ) ;
+ offset += DecimalInteger ;
+ }
+ if ( features . contains ( feature . UNK t ) ) {
+ zip util . long to little endian ( zip64 extra , offset , entry . get local header offset ( ) ) ;
+ }
+ extra . add ( new extra data ( zip64 extra , DecimalInteger ) ) ;
+ }
+ }
+comment:
+START update the extra data fields to contain a UNK extended information field if required END
+--generate--
+START writes the file of the file to the file . END
+START @param file the file of the file END
+START @param file the file to add END
+START @param file file of the file END
+START writes the file of the file to the file END
+
+code:
+public void set use strict UNK ( boolean use strict UNK ) {
+ this . use strict UNK = use strict UNK ;
+ }
+comment:
+START set whether to use strict UNK for attributes . enabled by default . END
+--generate--
+START set whether the UNK should be UNK . END
+START set whether the UNK should be UNK for UNK UNK . END
+START set whether UNK should be UNK to UNK UNK . END
+START set whether the UNK should be UNK UNK END
+START set whether the UNK should be UNK for UNK UNK END
+
+code:
+public immutable set < string > get features ( ) {
+ return pkg . get features ( ) ;
+ }
+comment:
+START returns the build features that apply to this rule . END
+--generate--
+START returns the total list of which UNK to be used to UNK . END
+START returns the total list of which UNK to be used to UNK UNK . END
+START returns the total list of which UNK to be used to UNK END
+START returns the total list of which UNK to be used to UNK the runtime . END
+START returns the total list of which UNK to be used to UNK UNK . @return END
+
+code:
+public void add interface ( class < ? > intf ) {
+ assert . not null ( intf , String ) ;
+ if ( ! intf . is interface ( ) ) {
+ throw new illegal argument exception ( String + intf . get name ( ) + String ) ;
+ }
+ if ( ! this . interfaces . contains ( intf ) ) {
+ this . interfaces . add ( intf ) ;
+ advice changed ( ) ;
+ }
+ }
+comment:
+START add a new proxied interface . @param UNK the additional interface to proxy END
+--generate--
+START @param class the class to add END
+START @param factory the class to add END
+START @param class the class to add . END
+START @param class the properties to add END
+START @param class the class to add to the class END
+
+code:
+public map < string , object > retrieve attributes ( web request request ) {
+ map < string , object > attributes = new hash map < > ( ) ;
+ for ( string name : this . known attribute names ) {
+ object value = this . session attribute store . retrieve attribute ( request , name ) ;
+ if ( value != null ) {
+ attributes . put ( name , value ) ;
+ }
+ }
+ return attributes ;
+ }
+comment:
+START @param request the current request @return a map with handler session attributes , possibly empty END
+--generate--
+START gets the UNK options with the given UNK attributes . END
+START gets the UNK options with the given UNK names . END
+START gets the UNK options for the given options . END
+START gets the UNK options with the given map . END
+START gets the UNK options with the given options . END
+
+code:
+public void set method overrides ( method overrides method overrides ) {
+ this . method overrides = ( method overrides != null ? method overrides : new method overrides ( ) ) ;
+ }
+comment:
+START specify method overrides for the bean , if any . END
+--generate--
+START set the http method method . END
+START set the method of the method . END
+START set the http method . END
+START set the method method . END
+START set the http method for the method . END
+
+code:
+void on error ( session session , object server error error ) ;
+comment:
+START callback for errors on a session object . @param error type of error . END
+--generate--
+START called when the UNK is UNK . END
+START called when a UNK is UNK . END
+START called when an UNK is UNK . END
+START called when the UNK is UNK . @param error the error END
+START called when a UNK is UNK . @param error the error END
+
+code:
+public static spec spec ( int start , alignment alignment , float weight ) {
+ return spec ( start , DecimalInteger , alignment , weight ) ;
+ }
+comment:
+START @param start the start @param alignment the alignment @param weight the weight END
+--generate--
+START sets the start of the UNK . END
+START sets the start of the time . END
+START sets the number of UNK . END
+START sets the start of the UNK END
+START sets the start of the UNK . @param animation the value END
+
+code:
+public c set UNK ( string UNK ) {
+ return set string argument ( tts span . arg_ y , UNK ) ;
+ }
+comment:
+START sets the UNK information for this instance . @return this instance . END
+--generate--
+START @param UNK the UNK to set . @return this instance . END
+START sets the UNK UNK . @return this instance . END
+START @param UNK the UNK . @return this instance . END
+START sets the UNK for this instance . @return this instance . END
+START @param UNK the UNK string . @return this instance . END
+
+code:
+public void set simple string not null ( @ not null string simple string not null ) {
+ this . simple string not null = simple string not null ;
+ }
+comment:
+START java doc test getter and setter END
+--generate--
+START asserts that it is UNK for UNK UNK . END
+START asserts that it is UNK for the UNK UNK . END
+START asserts that it is UNK for UNK . END
+START asserts that it is UNK for the UNK . END
+START asserts that it is UNK for the UNK UNK . @param value END
+
+code:
+public void set only core apps ( boolean only core apps ) {
+ UNK core apps = only core apps ;
+ }
+comment:
+START this is useful when creating a UNK boot environment . END
+--generate--
+START sets whether to be enabled . END
+START sets whether to be enabled UNK UNK . END
+START sets whether to be enabled UNK . END
+START sets whether to be UNK UNK . END
+START sets whether to be enabled UNK UNK . @param UNK END
+
+code:
+public static < e > builder < e > builder ( ) {
+ return new builder < e > ( ) ;
+ }
+comment:
+START returns a new builder . END
+--generate--
+START returns a new builder . END
+START creates a new builder . END
+START returns a new instance of the builder . END
+START returns a new builder END
+START @return a new builder END
+
+code:
+protected void apply transform ( batch batch , matrix4 transform ) {
+ old transform . set ( batch . get transform matrix ( ) ) ;
+ batch . set transform matrix ( transform ) ;
+ }
+comment:
+START note this causes the batch to be UNK . END
+--generate--
+START sets the current position . END
+START adds the current item . END
+START sets the current item . END
+START adds the current position . END
+START adds the current amount . END
+
+code:
+closeable image decode web p ( final encoded image encoded image , final image decode options options , final bitmap . config bitmap config ) ;
+comment:
+START decode a web p into a UNK image . END
+--generate--
+START creates a image with the given image . END
+START creates a image with the specified image . END
+START create a image with the given image . END
+START create a image with the specified image . END
+START creates a image with a UNK image . END
+
+code:
+public void set minimum scale x ( float scale ) {
+ if ( scale < DecimalFloatingPoint ) scale = DecimalFloatingPoint ;
+ mmin scale x = scale ;
+ limit trans and scale ( mmatrix touch , mcontent rect ) ;
+ }
+comment:
+START sets the minimum scale factor for the x-axis @param UNK END
+--generate--
+START sets the scale scale of the scale . END
+START sets the scale scale of the x @param y END
+START sets the scale scale of the x @param scale END
+START sets the scale scale of the x @param x END
+START sets the scale scale of the scale . @param x END
+
+code:
+public void add ( phase vfs statistics other ) {
+ for ( cell < profiler task , string , stat > cell : other . statistics . cell set ( ) ) {
+ stat stat = statistics . get ( cell . get row key ( ) , cell . get column key ( ) ) ;
+ if ( stat == null ) {
+ stat = new stat ( cell . get value ( ) ) ;
+ statistics . put ( cell . get row key ( ) , stat . path , stat ) ;
+ }
+ else {
+ stat . add ( cell . get value ( ) ) ;
+ }
+ }
+ }
+comment:
+START add statistics from another phase UNK statistics aggregation to this one . END
+--generate--
+START adds a write to the UNK UNK . END
+START adds a write to the UNK in the UNK . END
+START adds a write to the UNK UNK . this will be used in UNK . END
+START adds a write to the UNK UNK . this will be used to UNK the time . END
+START adds a write to the UNK UNK . this will be used in UNK . UNK . END
+
+code:
+public void clear bindings ( ) {
+ if ( UNK args != null ) {
+ arrays . fill ( UNK args , null ) ;
+ }
+ }
+comment:
+START clears all existing bindings . unset bindings are treated as null . END
+--generate--
+START remove the UNK UNK . END
+START UNK the UNK UNK . END
+START UNK the UNK . END
+START UNK all the manager . END
+START UNK the UNK UNK END
+
+code:
+static void restore enabled input methods ( context context , string prev value , string new value ) {
+ if ( debug_ e ) {
+ slog . i ( g , String ) ;
+ slog . i ( g , String + prev value ) ;
+ slog . i ( g , String + new value ) ;
+ }
+ array map < string , array set < string > > prev map = input method utils . parse input methods and subtypes string ( prev value ) ;
+ array map < string , array set < string > > new map = input method utils . parse input methods and subtypes string ( new value ) ;
+ for ( array map . entry < string , array set < string > > entry : new map . entry set ( ) ) {
+ final string ime id = entry . get key ( ) ;
+ array set < string > prev subtypes = prev map . get ( ime id ) ;
+ if ( prev subtypes == null ) {
+ prev subtypes = new array set < > ( DecimalInteger ) ;
+ prev map . put ( ime id , prev subtypes ) ;
+ }
+ prev subtypes . add all ( entry . get value ( ) ) ;
+ }
+ final string merged UNK and subtypes string = input method utils . build input methods and subtypes string ( prev map ) ;
+ if ( debug_ e ) {
+ slog . i ( g , String ) ;
+ slog . i ( g , String + merged UNK and subtypes string ) ;
+ }
+ settings . secure . put string ( context . get content resolver ( ) , settings . secure . enabled_ input_ s , merged UNK and subtypes string ) ;
+ }
+comment:
+START todo move this method to input method UNK with adding unit tests . END
+--generate--
+START @param context the context of the context END
+START @param context the context to set END
+START called when the request has been UNK to the result of the context END
+START called when the request has been UNK to the context END
+START called when the request has been UNK to the result END
+
+code:
+private object resolve string value ( string value ) {
+ if ( this . configurable bean factory == null ) {
+ return value ;
+ }
+ string placeholders resolved = this . configurable bean factory . resolve embedded value ( value ) ;
+ bean expression resolver expr resolver = this . configurable bean factory . get bean expression resolver ( ) ;
+ if ( expr resolver == null ) {
+ return value ;
+ }
+ return expr resolver . evaluate ( placeholders resolved , this . expression context ) ;
+ }
+comment:
+START resolve the given UNK value , potentially containing placeholders and expressions . END
+--generate--
+START determine the value value from the UNK UNK . END
+START determine the UNK value from the UNK UNK . END
+START determine the value value from the UNK of the UNK . END
+START determine the value value from the UNK of the UNK UNK . END
+START determine the value value from the UNK of the UNK END
+
+code:
+private < k extends influencer > int find index ( class < k > type ) {
+ for ( int i = DecimalInteger ;
+ i < influencers . size ;
+ ++ i ) {
+ influencer influencer = influencers . get ( i ) ;
+ if ( class reflection . is assignable from ( type , influencer . get class ( ) ) ) {
+ return i ;
+ }
+ }
+ return - DecimalInteger ;
+ }
+comment:
+START @return the index of the UNK of the given type . END
+--generate--
+START gets the UNK of the UNK . END
+START get the UNK of the UNK . END
+START gets the type of the UNK . END
+START gets the value of the UNK UNK . END
+START gets the value of the UNK . END
+
+code:
+@ suppress warnings ( String ) public static < k extends comparable < k > , v > immutable sorted key list multimap < k , v > of ( ) {
+ return empty_ p ;
+ }
+comment:
+START returns the empty multimap . END
+--generate--
+START returns an immutable map of the map . END
+START returns an immutable map containing the map . END
+START returns an immutable map containing the elements . END
+START returns an immutable map of the elements . END
+START returns an immutable map of the entries . END
+
+code:
+private void html front UNK ( ) {
+ ln open ( String ) ;
+ ln open ( String ) ;
+ ln element ( String , title ) ;
+ print UNK js ( ) ;
+ if ( chart . is present ( ) ) {
+ chart visitor . print css ( chart . get ( ) . get sorted types ( ) ) ;
+ }
+ UNK . print css ( ) ;
+ if ( multi file stats . is present ( ) ) {
+ multi file stats . get ( ) . print html head ( ) ;
+ }
+ if ( skylark stats . is present ( ) ) {
+ skylark stats . get ( ) . print html head ( ) ;
+ }
+ ln close ( ) ;
+ ln open ( String ) ;
+ ln element ( String , title ) ;
+ }
+comment:
+START print UNK tags , UNK and java script END
+--generate--
+START UNK the UNK UNK END
+START UNK the UNK UNK UNK END
+START UNK the UNK UNK UNK UNK END
+START UNK the UNK UNK and UNK UNK END
+START UNK the UNK UNK UNK for the UNK END
+
+code:
+private drawable get activity icon ( component name component ) {
+ package manager pm = context . get package manager ( ) ;
+ final activity info activity info ;
+ try {
+ activity info = pm . get activity info ( component , package manager . get_ meta_ a ) ;
+ }
+ catch ( name not found exception ex ) {
+ log . w ( log_ g , ex . to string ( ) ) ;
+ return null ;
+ }
+ int icon id = activity info . get icon resource ( ) ;
+ if ( icon id == DecimalInteger ) return null ;
+ string pkg = component . get package name ( ) ;
+ drawable drawable = pm . get drawable ( pkg , icon id , activity info . application info ) ;
+ if ( drawable == null ) {
+ log . w ( log_ g , String + icon id + String + component . flatten to short string ( ) ) ;
+ return null ;
+ }
+ return drawable ;
+ }
+comment:
+START gets the activity or application icon for an activity . @param component name of an activity . END
+--generate--
+START return the activity name for the activity . END
+START return the package name for the activity . END
+START return the device name for the activity . END
+START return the activity name for the activity . @param activity the device name . END
+START return the device name for the activity . @param activity the activity name . END
+
+code:
+void remove print services change listener ( @ non null print services change listener listener ) {
+ preconditions . check not null ( listener ) ;
+ if ( service == null ) {
+ log . w ( log_ g , String ) ;
+ return ;
+ }
+ if ( mprint services change listeners == null ) {
+ return ;
+ }
+ print services change listener wrapper wrapped listener = mprint services change listeners . remove ( listener ) ;
+ if ( wrapped listener == null ) {
+ return ;
+ }
+ if ( mprint services change listeners . is empty ( ) ) {
+ mprint services change listeners = null ;
+ }
+ wrapped listener . destroy ( ) ;
+ try {
+ service . remove print services change listener ( wrapped listener , muser id ) ;
+ }
+ catch ( remote exception re ) {
+ log . e ( log_ g , String , re ) ;
+ }
+ }
+comment:
+START stop listening for changes to the installed and enabled print services . END
+--generate--
+START UNK the listener for the event listener . END
+START remove the listener for the event listener . END
+START UNK the listener for the event . END
+START UNK the listener for the window . END
+START UNK the listener for the device . END
+
+code:
+public map < shard routing , synced flush service . shard synced flush response > failed shards ( ) {
+ map < shard routing , synced flush service . shard synced flush response > failures = new hash map < > ( ) ;
+ for ( map . entry < shard routing , synced flush service . shard synced flush response > result : shard responses . entry set ( ) ) {
+ if ( result . get value ( ) . success ( ) == false ) {
+ failures . put ( result . get key ( ) , result . get value ( ) ) ;
+ }
+ }
+ return failures ;
+ }
+comment:
+START @return an array of shard failures END
+--generate--
+START returns the shard of the shard . END
+START returns the shard of the shard END
+START returns the indices of the shard END
+START returns the shard of the cluster END
+START the shard of the shard END
+
+code:
+void UNK error ( player details details , int UNK amount ) ;
+comment:
+START error UNK the UNK END
+--generate--
+START called when the UNK has been UNK . END
+START called when the UNK is UNK . END
+START called when the UNK is UNK END
+START called when the UNK has been UNK END
+START called from UNK END
+
+code:
+public void set view binder ( view binder view binder ) {
+ mview binder = view binder ;
+ }
+comment:
+START sets the binder used to bind data to views . END
+--generate--
+START sets the listener that will be used for this view . END
+START sets the listener that will be used to subclasses . END
+START sets the listener that will be used for each UNK . END
+START sets the listener that will be used to subclasses to use . END
+START sets the listener that will be used to subclasses END
+
+code:
+public static md5 digest from env ( map < string , string > env ) {
+ byte [ ] result = new byte [ md5 digest . UNK e ] ;
+ fingerprint fp = new fingerprint ( ) ;
+ for ( map . entry < string , string > entry : env . entry set ( ) ) {
+ fp . add string latin1 ( entry . get key ( ) ) ;
+ fp . add string latin1 ( entry . get value ( ) ) ;
+ UNK with ( result , fp . digest and reset ( ) ) ;
+ }
+ return new md5 digest ( result ) ;
+ }
+comment:
+START @return an UNK digest of the given set of pairs . END
+--generate--
+START @param value the value to set . END
+START @param value the value to set END
+START @param value the value to be used . END
+START @param value the value to set . @return the builder END
+START @param value the value to set . @return the UNK builder END
+
+code:
+public mesh part set ( final string id , final mesh mesh , final int offset , final int size , final int type ) {
+ this . id = id ;
+ this . mesh = mesh ;
+ this . offset = offset ;
+ this . size = size ;
+ this . primitive type = type ;
+ this . center . set ( DecimalInteger , DecimalInteger , DecimalInteger ) ;
+ this . half UNK . set ( DecimalInteger , DecimalInteger , DecimalInteger ) ;
+ this . radius = - DecimalFloatingPoint ;
+ return this ;
+ }
+comment:
+START @return this mesh part , for chaining . END
+--generate--
+START sets the position of the UNK . END
+START sets the color of the UNK . END
+START sets the color of the UNK . @param index the value of the UNK @return this END
+START sets the color of the UNK . @param index the value of the UNK END
+START sets the position of the UNK END
+
+code:
+@ deprecated public request builder < transcode type > load ( @ nullable l url ) {
+ return load generic ( url ) ;
+ }
+comment:
+START @param url the url representing the image . END
+--generate--
+START returns the builder for the given name . END
+START returns the builder for the given path . END
+START returns the builder with the given name . END
+START returns the builder for the given uri . END
+START returns the builder . END
+
+code:
+public query params map query map ( ) {
+ init query map ( ) ;
+ return query map ;
+ }
+comment:
+START @return the query map END
+--generate--
+START gets the UNK map for this query . END
+START sets the UNK UNK . END
+START sets the UNK map for this query . END
+START sets the UNK map . END
+START sets the UNK map for the query . END
+
+code:
+public table center ( ) {
+ align = align . center ;
+ return this ;
+ }
+comment:
+START this clears any other alignment . END
+--generate--
+START UNK this UNK . END
+START UNK UNK . END
+START UNK this . END
+START UNK . END
+START UNK this UNK END
+
+code:
+public static l get resource ( class < ? > context class , string resource name ) {
+ l url = context class . get resource ( resource name ) ;
+ check argument ( url != null , String , resource name , context class . get name ( ) ) ;
+ return url ;
+ }
+comment:
+START @throws illegal argument exception if the resource is not found END
+--generate--
+START get the description of the given class . @param name the name of the class END
+START get the bean name for the given class . END
+START get the bean class for the given class . END
+START get the given class for the given class . END
+START get the description of the given class . END
+
+code:
+public abstract byte buf set medium e ( int index , int value ) ;
+comment:
+START UNK note that the most significant byte is ignored in the specified value . END
+--generate--
+START returns the index of the UNK UNK . END
+START returns the index of the UNK UNK to the specified UNK . END
+START returns the index of the UNK of the specified UNK . END
+START returns the index of the UNK UNK UNK . END
+START the index of the UNK UNK to the specified UNK . END
+
+code:
+public static date string2 date ( string time ) {
+ return string2 date ( time , default_ f ) ;
+ }
+comment:
+START UNK UNK ? UNK UNK UNK UNK UNK @param time ? —¶?—´å­—ç¬¦ä¸ ? @return UNK END
+--generate--
+START UNK @param UNK ä¸Šä¸‹?–‡ UNK ? END
+START UNK @param UNK ? UNK ? END
+START UNK @param UNK ä¸Šä¸‹?–‡ UNK ? UNK ? END
+START UNK ? UNK ?? UNK ?? END
+START UNK @param UNK ä¸Šä¸‹?–‡ END
+
+code:
+@ visible for testing boolean is live ( reference entry < k , v > entry , long now ) {
+ return segment for ( entry . get hash ( ) ) . get live value ( entry , now ) != null ;
+ }
+comment:
+START this method is a convenience for testing . END
+--generate--
+START this method is UNK . END
+START this method is a UNK . END
+START this method is UNK to UNK . END
+START this method is UNK to . END
+START this method is UNK to UNK END
+
+code:
+private static float get UNK path length ( @ non null path iterator iterator ) {
+ float segment [ ] = new float [ DecimalInteger ] ;
+ float total length = DecimalInteger ;
+ float [ ] previous point = new float [ DecimalInteger ] ;
+ boolean is first point = true ;
+ while ( ! iterator . is done ( ) ) {
+ int type = iterator . current segment ( segment ) ;
+ assert type == path iterator . seg_ o || type == path iterator . seg_ e || type == path iterator . seg_ o ;
+ if ( ! is first point && type != path iterator . seg_ o ) {
+ total length += point2 d . distance ( previous point [ DecimalInteger ] , previous point [ DecimalInteger ] , segment [ DecimalInteger ] , segment [ DecimalInteger ] ) ;
+ }
+ else {
+ is first point = false ;
+ }
+ previous point [ DecimalInteger ] = segment [ DecimalInteger ] ;
+ previous point [ DecimalInteger ] = segment [ DecimalInteger ] ;
+ iterator . next ( ) ;
+ }
+ return total length ;
+ }
+comment:
+START returns the UNK length of a UNK path . END
+--generate--
+START returns the path of the UNK UNK . END
+START returns the path for the UNK UNK . END
+START returns the UNK UNK for the hash . END
+START returns the path of the UNK UNK END
+START returns the path of the UNK UNK . @param UNK the UNK END
+
+code:
+public builder set setter ( org . jetbrains . kotlin . serialization . jvm . debug jvm proto buf . jvm method signature . builder builder for value ) {
+ if ( setter builder_ == null ) {
+ setter_ = builder for value . build ( ) ;
+ on changed ( ) ;
+ }
+ else {
+ setter builder_ . set message ( builder for value . build ( ) ) ;
+ }
+ bit field0_ |= 0x00000008 ;
+ return this ;
+ }
+comment:
+START optional . org.jetbrains.kotlin.serialization.jvm. jvm method signature setter = NUMBER END
+--generate--
+START optional . org.jetbrains.kotlin.serialization.jvm. jvm method signature setter = NUMBER END
+START optional . org.jetbrains.kotlin.serialization.jvm. jvm method signature signature = NUMBER END
+START optional . org.jetbrains.kotlin.serialization.jvm. jvm method signature annotation = NUMBER END
+START optional . org.jetbrains.kotlin.serialization.jvm. jvm method signature = NUMBER END
+START optional . org.jetbrains.kotlin.serialization.jvm. jvm method signature constructor = NUMBER END
+
+code:
+public boolean has property ( int property ) {
+ return has property ( UNK properties , property ) ;
+ }
+comment:
+START @param property the property to check properties for . @return whether the specified property is supported . END
+--generate--
+START @param name the name of the type to use . END
+START @param name the type of the UNK to use . END
+START @param name the name of the UNK to use . END
+START @param name the type of the type to use . END
+START @param name the name of the UNK . END
+
+code:
+public list < handler method argument resolver > get argument resolvers ( ) {
+ return this . argument resolvers . get resolvers ( ) ;
+ }
+comment:
+START return the complete list of argument resolvers . END
+--generate--
+START return the configured name of the names . END
+START return the configured name of the types . END
+START return the configured name of the table . END
+START return the configured name of the names that is a types . END
+START return the configured name of the names that is the types . END
+
+code:
+static string parse path ( string uri ) {
+ int i ;
+ if ( uri . char at ( DecimalInteger ) == String ) {
+ i = DecimalInteger ;
+ }
+ else {
+ i = uri . index of ( String ) ;
+ if ( i == - DecimalInteger ) {
+ i = DecimalInteger ;
+ }
+ else {
+ i = uri . index of ( String , i + DecimalInteger ) ;
+ if ( i == - DecimalInteger ) {
+ return String ;
+ }
+ }
+ }
+ int query start = uri . index of ( String , i ) ;
+ if ( query start == - DecimalInteger ) {
+ query start = uri . length ( ) ;
+ }
+ return uri . substring ( i , query start ) ;
+ }
+comment:
+START extract the path out of the uri . END
+--generate--
+START parse the UNK string . END
+START parse the given string . END
+START parses the UNK string . END
+START parse the UNK string . @param name the string string to add END
+START parse the UNK string . @param name the string string to remove END
+
+code:
+public cell < t > expand ( ) {
+ expand x = onei ;
+ expand y = onei ;
+ return this ;
+ }
+comment:
+START sets expand x and expand y to NUMBER . END
+--generate--
+START sets y x and y y to NUMBER . END
+START sets x x and between y to NUMBER . END
+START sets x x and y y to NUMBER . END
+START sets x x and y y to true if not NUMBER . END
+START sets y x and y y to true if not NUMBER . END
+
+code:
+@ test public void test checked exception via execute ( ) {
+ test circuit breaker circuit breaker = new test circuit breaker ( ) ;
+ command with checked exception command = new command with checked exception ( circuit breaker ) ;
+ try {
+ command . execute ( ) ;
+ fail ( String + exception . class . get simple name ( ) ) ;
+ }
+ catch ( exception e ) {
+ assert equals ( String , e . get cause ( ) . get message ( ) ) ;
+ }
+ assert equals ( String , command . get failed execution exception ( ) . get message ( ) ) ;
+ assert true ( command . get execution time in milliseconds ( ) > - DecimalInteger ) ;
+ assert true ( command . is failed execution ( ) ) ;
+ assert command execution events ( command , hystrix event type . e , hystrix event type . fallback_ g ) ;
+ assert not null ( command . get execution exception ( ) ) ;
+ assert equals ( DecimalInteger , circuit breaker . metrics . get current concurrent execution count ( ) ) ;
+ assert sane hystrix request log ( DecimalInteger ) ;
+ }
+comment:
+START test a checked exception being thrown END
+--generate--
+START test a error exception END
+START test a error with an exception END
+START test a error with an exception . END
+START test a error with an error exception END
+START test a error with an exception exception END
+
+code:
+public variable get variable ( location location , string name ) {
+ variable variable = lookup variable ( location , name ) ;
+ if ( variable != null ) {
+ return variable ;
+ }
+ if ( parent != null ) {
+ return parent . get variable ( location , name ) ;
+ }
+ throw location . create error ( new illegal argument exception ( String + name + String ) ) ;
+ }
+comment:
+START UNK a variable . this will throw UNK if the variable does not exist END
+--generate--
+START returns null if the attribute is not specified . END
+START returns null if the variable is not specified . END
+START returns null if the rule is not found . END
+START returns null if the variable is not found . END
+START returns null if the attribute is null . END
+
+code:
+public void on service UNK ( object peer handle , byte [ ] service specific info , byte [ ] match filter ) {
+ }
+comment:
+START @param peer handle an opaque handle to the peer matching our discovery operation . END
+--generate--
+START called from the service . END
+START called when the service is UNK . END
+START called from the UNK . END
+START called from the service . @param UNK the context END
+START called from the service . @param UNK the UNK END
+
+code:
+public void clear ( ) {
+ this . synchronized with transaction = false ;
+ this . rollback only = false ;
+ this . deadline = null ;
+ }
+comment:
+START clear the UNK state of this resource holder . END
+--generate--
+START UNK this instance . END
+START UNK this object . END
+START UNK the state of this instance . END
+START UNK the cache . END
+START removes the cache . END
+
+code:
+@ override public string get message ( ) {
+ return this . binding result . to string ( ) ;
+ }
+comment:
+START returns UNK information about the errors held in this object . END
+--generate--
+START return the message message . END
+START return the http message message . END
+START return the message from the message . END
+START return the http message . END
+START return the message message END
+
+code:
+protected static void UNK f ( string file ) {
+ try {
+ string command = String + file + String + file + String ;
+ process child = runtime . get runtime ( ) . exec ( command ) ;
+ child . wait for ( ) ;
+ }
+ catch ( interrupted exception | exception e ) {
+ e . print stack trace ( ) ;
+ system . exit ( DecimalInteger ) ;
+ }
+ }
+comment:
+START invoke dot to generate a UNK . END
+--generate--
+START UNK UNK . END
+START UNK the UNK . END
+START UNK UNK . @param UNK the UNK . END
+START UNK UNK . @param UNK END
+START UNK . END
+
+code:
+public result matcher comment ( final string name , final string comment ) {
+ return new result matcher ( ) {
+ @ override public void match ( mvc result result ) throws exception {
+ cookie cookie = result . get response ( ) . get cookie ( name ) ;
+ assert equals ( String , comment , cookie . get comment ( ) ) ;
+ }
+ }
+ ;
+ }
+comment:
+START assert a cookie 's comment value . END
+--generate--
+START assert the attribute representation of a map . END
+START assert a attribute representation of the attribute . END
+START assert the attribute representation of a attribute . END
+START assert the attribute representation of a entry . END
+START assert a attribute representation of the map . END
+
+code:
+@ override public int get phase ( ) {
+ return this . phase ;
+ }
+comment:
+START return the configured phase . END
+--generate--
+START return the port that will be used for UNK . END
+START return the port that will be used for UNK UNK . END
+START return the port that will be used for UNK UNK . @return the port END
+START return the port that will be used for UNK UNK . @return END
+START return the port that will be used for UNK UNK END
+
+code:
+private void assert is valid ( ) {
+ if ( is invalid ( ) ) {
+ throw new illegal state exception ( String ) ;
+ }
+ }
+comment:
+START @throws illegal state exception if this session has been UNK END
+--generate--
+START check that the code is UNK . END
+START check if the code is UNK . END
+START check if the operation is UNK . END
+START check that the was UNK . END
+START check that this is UNK . END
+
+code:
+java . util . list < org . jetbrains . kotlin . serialization . debug proto buf . type . argument > get argument list ( ) ;
+comment:
+START repeated . org.jetbrains.kotlin.serialization. type. argument argument = NUMBER END
+--generate--
+START repeated . org.jetbrains.kotlin.serialization. annotation. argument argument = NUMBER END
+START repeated . org.jetbrains.kotlin.serialization. annotation argument = NUMBER END
+START repeated . org.jetbrains.kotlin.serialization. type. argument argument = NUMBER END
+START repeated . org.jetbrains.kotlin.serialization. annotation. argument = NUMBER END
+START repeated . org.jetbrains.kotlin.serialization. annotation annotation = NUMBER END
+
+code:
+void clear widgets locked ( ) {
+ widgets . clear ( ) ;
+ on widgets cleared locked ( ) ;
+ }
+comment:
+START clears all widgets and associated cache of packages with bound widgets . END
+--generate--
+START clear all UNK UNK . END
+START clears all UNK UNK . END
+START clear all UNK UNK END
+START clears all UNK UNK END
+START called when all UNK UNK END
+
+code:
+public string get cluster public host ( ) {
+ return cluster public host ;
+ }
+comment:
+START get the public facing port to be used when UNK . END
+--generate--
+START returns the profile for the cluster . END
+START returns the cluster for the cluster . END
+START returns the profile for the cluster request END
+START returns the cluster used for the cluster END
+START returns the cluster for the cluster END
+
+code:
+public bean definition builder set lazy init ( boolean lazy ) {
+ this . bean definition . set lazy init ( lazy ) ;
+ return this ;
+ }
+comment:
+START set whether beans for this definition should be lazily initialized or not . END
+--generate--
+START set whether to be UNK to the UNK of the factory . END
+START set whether to be UNK to the UNK of the document . END
+START set whether to be UNK to the UNK of the definition . END
+START set whether to be UNK to the UNK of the bean . END
+START set whether to be UNK to the UNK of the factory that this should be used . END
+
+code:
+public int get system id ( ) {
+ return msystem id ;
+ }
+comment:
+START @return system id NUMBER . UNK , UNK x _ value if unknown END
+--generate--
+START returns the device id for this request . END
+START returns the device id for this task . END
+START returns the device id for this device . END
+START returns the device id for this user . END
+START returns the device id for this request . @return the UNK id END
+
+code:
+public void set last access time ( ) {
+ last access time = system . nano time ( ) ;
+ }
+comment:
+START sets the UNK access time flag to now END
+--generate--
+START specify whether the user should be UNK in the UNK . END
+START specify whether the current UNK should be UNK . END
+START specify whether the user should be UNK in the current time . END
+START specify whether the user should be UNK in the current UNK . END
+START specify whether the user should be UNK . END
+
+code:
+int update ( prepared statement creator UNK ) throws data access exception ;
+comment:
+START a prepared statement creator can either be implemented directly or configured through a prepared statement creator factory . END
+--generate--
+START creates all parameters from the given parameters . END
+START creates all arguments from the given parameters . END
+START creates a copy of the given parameters . END
+START creates all parameters from the given directory . END
+START creates a copy of the given parameters . @param arguments the array of the property containing . END
+
+code:
+@ non null public speed get speed ( ) {
+ return speed . l ;
+ }
+comment:
+START returns the expected speed of this detector @return the expected speed of this detector END
+--generate--
+START get the version of the total version END
+START get the UNK description . @return the maximum version END
+START get the UNK version . @return the UNK END
+START get the UNK description . @return the UNK END
+START get the UNK description . @return the maximum maximum version END
+
+code:
+public int get paint flags ( ) {
+ return mtext paint . get flags ( ) ;
+ }
+comment:
+START @return the flags on the paint being used to display the text . END
+--generate--
+START returns the UNK UNK used for this animation . END
+START returns the UNK UNK used for this window . END
+START returns the UNK UNK used for this stack . END
+START returns the UNK UNK used for this display . END
+START returns the UNK UNK of the UNK . END
+
+code:
+public boolean is one time task ( ) {
+ return ( this . period < DecimalInteger ) ;
+ }
+comment:
+START is this task only UNK going to execute once ? END
+--generate--
+START this is a UNK UNK . END
+START this method is UNK to UNK . END
+START this method is UNK to UNK the UNK . END
+START this method is UNK to UNK . @return whether the UNK UNK UNK . END
+START this method is UNK to UNK . @return whether the UNK UNK UNK END
+
+code:
+public static long string2 milliseconds ( string time ) {
+ return string2 milliseconds ( time , default_ f ) ;
+ }
+comment:
+START UNK ? UNK UNK UNK UNK UNK @param time ? —¶?—´å­—ç¬¦ä¸ ? @return UNK END
+--generate--
+START UNK @param UNK UNK ? @return UNK ?? END
+START UNK @param UNK UNK ? @return UNK ? END
+START UNK @param UNK UNK ? @return UNK END
+START UNK @param UNK UNK ? @return UNK ?? UNK ?? END
+START UNK ?? UNK @param UNK ? UNK ? END
+
+code:
+@ override public void set target ( object target ) {
+ for ( node node : nodes ) {
+ animator animation = node . animation ;
+ if ( animation instanceof animator set ) {
+ ( ( animator set ) animation ) . set target ( target ) ;
+ }
+ else if ( animation instanceof object animator ) {
+ ( ( object animator ) animation ) . set target ( target ) ;
+ }
+ }
+ }
+comment:
+START @param target the object being animated END
+--generate--
+START @param index the item to be used END
+START @param index the index to be used END
+START @param index the item to be added END
+START @param index the target object END
+START @param index the item to be used to create the cluster END
+
+code:
+protected final void add default http message writers ( list < http message writer < ? > > message writers ) {
+ message writers . add ( new encoder http message writer < > ( new byte buffer encoder ( ) ) ) ;
+ message writers . add ( new encoder http message writer < > ( new char sequence encoder ( ) ) ) ;
+ message writers . add ( new resource http message writer ( ) ) ;
+ if ( jaxb2 present ) {
+ message writers . add ( new encoder http message writer < > ( new jaxb2 xml encoder ( ) ) ) ;
+ }
+ if ( jackson2 present ) {
+ message writers . add ( new encoder http message writer < > ( new jackson2 json encoder ( ) ) ) ;
+ }
+ }
+comment:
+START add default http message UNK . END
+--generate--
+START @param message the message to use . END
+START @param message the message to add . END
+START @param message the message to UNK . END
+START @param message the message to use . @return the message message END
+START @param message the message to UNK END
+
+code:
+public self set script ( @ nullable script script ) {
+ this . script = script ;
+ return self ( ) ;
+ }
+comment:
+START script to modify the documents before they are processed . END
+--generate--
+START @return the builder to use . END
+START @return the builder . END
+START called for UNK UNK . END
+START @return the builder to use for the UNK . END
+START @return the script to the UNK END
+
+code:
+public int get upper bound count ( ) {
+ return upper bound_ . size ( ) ;
+ }
+comment:
+START repeated . org.jetbrains.kotlin.serialization. type upper_bound = NUMBER END
+--generate--
+START repeated . org.jetbrains.kotlin.serialization. type alias type_alias = NUMBER END
+START repeated . org.jetbrains.kotlin.serialization. type upper_bound = NUMBER END
+START repeated . org.jetbrains.kotlin.serialization. type supertype = NUMBER END
+START repeated . org.jetbrains.kotlin.serialization. type function = NUMBER END
+START repeated . org.jetbrains.kotlin.serialization. type parameter = NUMBER END
+
+code:
+private static byte [ ] extract bytes ( byte [ ] scan record , int start , int length ) {
+ byte [ ] bytes = new byte [ length ] ;
+ system . arraycopy ( scan record , start , bytes , DecimalInteger , length ) ;
+ return bytes ;
+ }
+comment:
+START helper method to extract bytes from byte array . END
+--generate--
+START reads a UNK byte UNK UNK . END
+START reads a UNK byte UNK . END
+START creates a UNK byte UNK UNK UNK . END
+START creates a UNK byte byte UNK UNK . END
+START creates a UNK byte byte UNK UNK UNK UNK . END
+
+code:
+public abstract void type process ( type element element , tree path tree ) ;
+comment:
+START the passed class is always valid UNK java code . END
+--generate--
+START the type of the code of the class type . END
+START the type of the target type . END
+START the type of the code of the type of the type . END
+START the type of the code of the type . END
+START the type of the bean type . END
+
+code:
+public put index template request builder set settings ( settings settings ) {
+ request . settings ( settings ) ;
+ return this ;
+ }
+comment:
+START the settings to created the index template with . END
+--generate--
+START the settings that will be UNK from the index . END
+START the index that will be UNK to the index . END
+START the settings that will be UNK from the index END
+START the index that will be UNK to the index END
+START the settings that will be UNK to the index END
+
+code:
+public immutable list < string > get compatible javac options ( string key ) {
+ return get compatible javac options ( ) . get ( key ) ;
+ }
+comment:
+START @return the map of target UNK UNK . END
+--generate--
+START returns a set of the UNK that will be added to the UNK UNK . END
+START returns a set of the UNK that will be added to the UNK . END
+START returns a set of the UNK that will be used to the UNK UNK . END
+START returns a set of the UNK that will be added to the specified UNK . END
+START returns a set of the UNK that will be used to UNK the UNK . END
+
+code:
+void release ( boolean is removed from queue ) {
+ if ( release manager . release ( is removed from queue ) ) {
+ release internal ( ) ;
+ }
+ }
+comment:
+START called when this object is no longer in use externally . END
+--generate--
+START called by UNK UNK . END
+START called for UNK UNK . END
+START called by UNK UNK END
+START called by UNK UNK to UNK . END
+START called for UNK UNK END
+
+code:
+void close iterator ( iterator < ? > it ) throws data access exception ;
+comment:
+START operations , instead of waiting until the session is closed or disconnected . END
+--generate--
+START called when a UNK UNK . END
+START called when the UNK UNK . END
+START called when a UNK . END
+START called when the UNK UNK . @param result the UNK END
+START called when the UNK UNK . @param output the UNK END
+
+code:
+@ override protected void write ref ( int value ) throws exception {
+ if ( e < _offset + DecimalInteger ) flush ( ) ;
+ _buffer [ _offset ++ ] = ( byte ) bc_ f ;
+ write int ( value ) ;
+ }
+comment:
+START writes a reference . <pre> UNK < int > </pre> @param value the integer value to write . END
+--generate--
+START this is an UNK END
+START this method is a UNK of the UNK . END
+START this method is a UNK of the UNK END
+START this is an UNK value END
+START this is an UNK value for the UNK END
+
+code:
+public static path fragment UNK path ( path fragment original , string flavor ) {
+ return original . replace name ( original . get base name ( ) + String + flavor + String ) ;
+ }
+comment:
+START UNK an path from a given path by UNK '' . params '' . END
+--generate--
+START returns the path for the given path with the given path . END
+START returns the path for the given path path . END
+START returns a path for the given path path . END
+START returns the path for the given path . END
+START returns a path for the given path . END
+
+code:
+public boolean has ( string name ) {
+ return get ( name ) != null ;
+ }
+comment:
+START returns true if a child with the specified name exists . END
+--generate--
+START @return true iff this instance is a UNK . END
+START @return true iff this instance is a UNK UNK . END
+START @return true if this instance is a UNK . END
+START @return true iff this instance is a UNK of the given type . END
+START @return true iff this instance is a UNK of the specified type END
+
+code:
+private void clear internal ( ) {
+ set < UNK score cache > caches to clear = get score caches ( ) ;
+ for ( UNK score cache score cache : caches to clear ) {
+ try {
+ score cache . clear scores ( ) ;
+ }
+ catch ( remote exception e ) {
+ if ( log . is loggable ( g , log . e ) ) {
+ log . v ( g , String , e ) ;
+ }
+ }
+ }
+ }
+comment:
+START clear UNK . callers are responsible for checking permissions as appropriate . END
+--generate--
+START removes all resources from the UNK cache . END
+START removes all resources from the UNK of the cache . END
+START remove all resources from the UNK of the cache . END
+START removes all resources from the UNK . END
+START remove all resources from the UNK . END
+
+code:
+public entry copy ( ) {
+ entry e = new entry ( x , get y ( ) , get data ( ) ) ;
+ return e ;
+ }
+comment:
+START returns an exact copy of the entry @return END
+--generate--
+START returns a new entry of the UNK UNK . END
+START creates a new entry of the UNK UNK . END
+START returns a new entry of the UNK data . END
+START returns a new data of the UNK UNK . END
+START returns a new entry of the UNK . END
+
+code:
+private builder add transitive dependency ( java compilation args provider dep , boolean recursive , classpath type type ) {
+ java compilation args args = recursive ? dep . get recursive java compilation args ( ) : dep . get java compilation args ( ) ;
+ add transitive args ( args , type ) ;
+ return this ;
+ }
+comment:
+START merges the artifacts of another target . END
+--generate--
+START creates a new target UNK . END
+START creates a new rule UNK . END
+START creates a new bean UNK . END
+START creates a new instance of the UNK . END
+START creates a new bean instance . END
+
+code:
+public void set draw inside ( boolean value ) {
+ mdraw inside = value ;
+ }
+comment:
+START sets whether the legend will draw inside the chart or outside @param value END
+--generate--
+START called when the UNK UNK is enabled . END
+START called when the UNK is enabled . END
+START called when the UNK is UNK . END
+START called when the UNK UNK is enabled . @hide END
+START called when the UNK UNK is enabled . @param x the UNK of the UNK END
+
+code:
+@ test public void test semaphore isolated observe known async failure with no fallback ( ) {
+ test observe known failure with no fallback ( execution isolation strategy . e , true ) ;
+ }
+comment:
+START test a semaphore command execution that throws an hystrix exception asynchronously and did n't implement get fallback . END
+--generate--
+START test a command command command execution . END
+START test a command command command execution does n't implement a fallback . END
+START test a command command command execution execution . END
+START test a command command command execution does n't get a fallback . END
+START test a command command command execution does n't get fallback . END
+
+code:
+protected boolean write direct ( serializer json bean deser ) {
+ return json bean deser . out . write direct && this . write direct && json bean deser . write direct ;
+ }
+comment:
+START only invoke by UNK byte @return END
+--generate--
+START this method is UNK to UNK the description of the description . END
+START this method is UNK to the content of the description . END
+START this method is UNK to the content of the description of the description . END
+START this method is UNK to the content of the content . END
+START this method is UNK to UNK the description . END
+
+code:
+public static pixmap decode image ( etc1 data etc1 data , format format ) {
+ int data offset = DecimalInteger ;
+ int width = DecimalInteger ;
+ int height = DecimalInteger ;
+ if ( etc1 data . has header ( ) ) {
+ data offset = DecimalInteger ;
+ width = c1 . get width m ( etc1 data . compressed data , DecimalInteger ) ;
+ height = c1 . get height m ( etc1 data . compressed data , DecimalInteger ) ;
+ }
+ else {
+ data offset = DecimalInteger ;
+ width = etc1 data . width ;
+ height = etc1 data . height ;
+ }
+ int pixel size = get pixel size ( format ) ;
+ pixmap pixmap = new pixmap ( width , height , format ) ;
+ decode image ( etc1 data . compressed data , data offset , pixmap . get pixels ( ) , DecimalInteger , width , height , pixel size ) ;
+ return pixmap ;
+ }
+comment:
+START does not modify the byte buffer 's position or limit . END
+--generate--
+START ? UNK ? @param ? ? UNK @param UNK ? UNK ? @return UNK END
+START ? UNK ? @param ? ? UNK @param UNK ? UNK @return UNK END
+START ? UNK ? @param ? ? UNK @param UNK ? UNK @return END
+START ? UNK ? @param ? ? UNK @param UNK ? UNK ? END
+START ? UNK ? @param format @param UNK @return END
+
+code:
+public boolean is enabled ( ) {
+ return contact . is enabled ( ) ;
+ }
+comment:
+START has this contact been disabled ? END
+--generate--
+START returns true if the device is enabled . END
+START returns true if the device is UNK . END
+START returns true if the user is enabled . END
+START returns true if UNK is enabled . END
+START returns true if this is UNK . END
+
+code:
+public static simp attributes get attributes ( ) {
+ return attributes holder . get ( ) ;
+ }
+comment:
+START return the UNK attributes currently bound to the thread . END
+--generate--
+START return the UNK UNK of this manager . END
+START return the UNK UNK UNK . END
+START return the UNK UNK of this factory END
+START returns the UNK UNK UNK END
+START return the UNK UNK UNK END
+
+code:
+private map < string , object > safe serialize ( object mapper mapper , object bean , string prefix ) {
+ try {
+ @ suppress warnings ( String ) map < string , object > result = new hash map < string , object > ( mapper . convert value ( bean , map . class ) ) ;
+ return result ;
+ }
+ catch ( exception ex ) {
+ return new hash map < string , object > ( collections . < string , object > singleton map ( String , String + prefix + String ) ) ;
+ }
+ }
+comment:
+START @param mapper the object mapper @param bean the source bean @param prefix the prefix @return the serialized instance END
+--generate--
+START create the map for the given map . END
+START creates the map for the given map . END
+START creates the map for the given bean map . END
+START create the map for the given map . @param bean map the map END
+START create the map for the given map . @param bean END
+
+code:
+private void validate cycle ( node target , node original ) {
+ for ( int ct = DecimalInteger ;
+ ct < target . outputs . size ( ) ;
+ ct ++ ) {
+ final connect line cl = target . outputs . get ( ct ) ;
+ if ( cl . mto k != null ) {
+ node UNK = find node ( cl . mto k . script ) ;
+ if ( UNK . equals ( original ) ) {
+ throw new rsinvalid state exception ( String ) ;
+ }
+ validate cycle ( UNK , original ) ;
+ }
+ if ( cl . mto f != null ) {
+ node UNK = find node ( cl . mto f . script ) ;
+ if ( UNK . equals ( original ) ) {
+ throw new rsinvalid state exception ( String ) ;
+ }
+ validate cycle ( UNK , original ) ;
+ }
+ }
+ }
+comment:
+START any cycle that could be created must contain original node END
+--generate--
+START check that there are no UNK of the UNK . END
+START checks that there are no UNK of the UNK . END
+START note that there are no UNK of the UNK UNK . END
+START check that there are no UNK of the UNK of the target . END
+START note that there are no UNK of the UNK of the same UNK . END
+
+code:
+public void set actual image color filter ( color filter UNK ) {
+ mactual image wrapper . set color filter ( UNK ) ;
+ }
+comment:
+START sets the color filter to be applied on the actual image . END
+--generate--
+START sets the color to be used for the image image . END
+START sets the drawable to be used for the image image . END
+START sets the color to be used for the UNK image . END
+START sets the color to be used for the image . END
+START sets the drawable to be used for the image . END
+
+code:
+public void set center text typeface ( typeface t ) {
+ ( ( pie chart renderer ) renderer ) . get paint center text ( ) . set typeface ( t ) ;
+ }
+comment:
+START sets the typeface for the UNK paint @param t END
+--generate--
+START sets the text size for the center of the center text . END
+START sets the size of the center of the center of the center . END
+START sets the text size for the center of the text . END
+START sets the text size for the center of the center text . @param color END
+START sets the text size for the center of the center text . @param color the color END
+
+code:
+public boolean has receiver type ( ) {
+ return ( ( bit field0_ & 0x00000040 ) == 0x00000040 ) ;
+ }
+comment:
+START optional . org.jetbrains.kotlin.serialization. type receiver_type = NUMBER END
+--generate--
+START optional . org.jetbrains.kotlin.serialization. type class_name = NUMBER END
+START optional . org.jetbrains.kotlin.serialization. type type_parameter = NUMBER END
+START optional . org.jetbrains.kotlin.serialization. type subtraction = NUMBER END
+START optional . org.jetbrains.kotlin.serialization. type outer_type = NUMBER END
+START optional . org.jetbrains.kotlin.serialization. type = NUMBER END
+
+code:
+public snapshots status request snapshots ( string [ ] snapshots ) {
+ this . snapshots = snapshots ;
+ return this ;
+ }
+comment:
+START sets the list of snapshots to be returned @return this request END
+--generate--
+START sets the list of the snapshot to be used @return this builder END
+START sets the list of the snapshot to be used @return this request END
+START sets the list of the indices to be used @return this builder END
+START sets the list of the indices to be used @return this request END
+START sets the list of the snapshot to be used @return this builder . END
+
+code:
+public builder set UNK ( @ nullable text utils . truncate at UNK ) {
+ UNK = UNK ;
+ return this ;
+ }
+comment:
+START set UNK on the layout . END
+--generate--
+START sets the UNK of the UNK . END
+START sets the UNK size of the UNK . END
+START sets the UNK of the UNK . @return the value of the UNK . END
+START sets the UNK size of the UNK . @return the value . END
+START sets the UNK of the UNK . @return the value of the UNK END
+
+code:
+public void reset ( cluster state to state ) {
+ if ( UNK context . get and set ( null ) != null ) {
+ cluster service . remove ( cluster state listener ) ;
+ }
+ last observed state . set ( new observed state ( to state ) ) ;
+ }
+comment:
+START reset this observer to the give cluster state . any pending waits will be canceled . END
+--generate--
+START resets the state state to the state . END
+START resets the state state to the state state . END
+START resets the state to the state . END
+START clears the state state . END
+START resets the state state . END
+
+code:
+private void notify interface added ( string iface ) {
+ final int length = observers . begin broadcast ( ) ;
+ try {
+ for ( int i = DecimalInteger ;
+ i < length ;
+ i ++ ) {
+ try {
+ observers . get broadcast item ( i ) . interface added ( iface ) ;
+ }
+ catch ( remote exception | runtime exception e ) {
+ }
+ }
+ }
+ finally {
+ observers . finish broadcast ( ) ;
+ }
+ }
+comment:
+START notify our observers of an interface UNK . END
+--generate--
+START called for native manager END
+START called on native code END
+START called for testing END
+START called for native code END
+START called on native code of the service END
+
+code:
+public static < r extends comparable , c extends comparable , v > tree based table < r , c , v > create ( ) {
+ return new tree based table < r , c , v > ( ordering . natural ( ) , ordering . natural ( ) ) ;
+ }
+comment:
+START that 's necessary to support classes defined without UNK . END
+--generate--
+START creates a new instance of the specified UNK . END
+START creates a new instance of the provided UNK . END
+START creates a new new UNK with the specified UNK . END
+START creates a new instance of the specified UNK by the provided UNK . END
+START creates a new instance of the specified UNK by the specified UNK . END
+
+code:
+public int get expand y ( ) {
+ return expand y ;
+ }
+comment:
+START @return may be null . END
+--generate--
+START @return may be null . END
+START @return may be null END
+START @return may be null if this is set . END
+START @return may be null if this is set END
+START @return END
+
+code:
+public void set expires ( long expires ) {
+ set date ( s , expires ) ;
+ }
+comment:
+START the date should be specified as the number of milliseconds since UNK NUMBER , NUMBER UNK . END
+--generate--
+START sets whether the bar is UNK in the UNK . END
+START sets whether the bar is UNK in the stack . END
+START sets whether the bar is UNK in the UNK . @param enabled END
+START sets whether the bar is UNK in the UNK . @param UNK END
+START sets whether the bar is UNK in the UNK . @param UNK the UNK END
+
+code:
+public session factory get session factory ( ) {
+ return this . session factory ;
+ }
+comment:
+START return the hibernate session factory that should be used to create hibernate sessions . END
+--generate--
+START return the bean factory for this factory . END
+START return the bean factory for this view . END
+START return the session factory for this factory . END
+START return the bean factory to use for this factory . END
+START return the bean factory to use for this manager . END
+
+code:
+private static int merge same buckets ( double [ ] values , double [ ] weights , int next index ) {
+ sort ( values , weights , next index ) ;
+ int current = DecimalInteger ;
+ for ( int i = DecimalInteger ;
+ i < next index ;
+ i ++ ) {
+ if ( values [ current ] == values [ i ] ) {
+ weights [ current ] += weights [ i ] ;
+ }
+ else {
+ current ++ ;
+ values [ current ] = values [ i ] ;
+ weights [ current ] = weights [ i ] ;
+ }
+ }
+ return current + DecimalInteger ;
+ }
+comment:
+START simple pass that merges entries with the same value END
+--generate--
+START creates a new array of bytes that is equal to the specified value . END
+START creates a new array of bytes that are equal to the specified value . END
+START returns a new array of UNK UNK . END
+START creates a new array of UNK UNK . END
+START creates a new array of bytes that is UNK . END
+
+code:
+private view create view from tag ( view parent , string name , context context , attribute set attrs ) {
+ return create view from tag ( parent , name , context , attrs , false ) ;
+ }
+comment:
+START convenience method for calling through to the UNK create view from tag method . END
+--generate--
+START creates a new view UNK . END
+START creates a new view . END
+START creates a new view with the UNK UNK . END
+START creates a new view of the UNK . END
+START creates a new instance of the UNK . END
+
+code:
+public string next name ( ) throws exception {
+ peek ( ) ;
+ if ( token != json token . e ) {
+ throw new illegal state exception ( String + peek ( ) ) ;
+ }
+ string result = name ;
+ advance ( ) ;
+ return result ;
+ }
+comment:
+START @throws ioexception if the next token in the stream is not a property name . END
+--generate--
+START returns the last address . END
+START returns the total state of the current attribute . END
+START returns the first address . END
+START returns the total state of the current element . END
+START returns the total state of the current node . END
+
+code:
+void UNK overlay view ( rect frame ) {
+ if ( g ) log . d ( g , String + frame + String ) ;
+ if ( moverlay frame == null || moverlay frame . width ( ) != frame . width ( ) || moverlay frame . height ( ) != frame . height ( ) ) {
+ on overlay view size changed ( frame . right - frame . left , frame . bottom - frame . top ) ;
+ }
+ moverlay frame = frame ;
+ if ( ! moverlay view enabled || moverlay view container == null ) {
+ return ;
+ }
+ mwindow params . x = frame . left ;
+ mwindow params . y = frame . top ;
+ mwindow params . width = frame . right - frame . left ;
+ mwindow params . height = frame . bottom - frame . top ;
+ mwindow manager . update view layout ( moverlay view container , mwindow params ) ;
+ }
+comment:
+START UNK the current overlay view . @param frame a new position of the overlay view . END
+--generate--
+START sets the UNK view . END
+START UNK the UNK view . END
+START UNK the UNK . END
+START sets the UNK UNK . END
+START UNK the view . END
+
+code:
+static root from file ( string file name ) throws exception , class not found exception {
+ file input stream UNK = new file input stream ( file name ) ;
+ object input stream UNK = new object input stream ( new buffered input stream ( UNK ) ) ;
+ root root = ( root ) UNK . read object ( ) ;
+ UNK . close ( ) ;
+ return root ;
+ }
+comment:
+START reads root from a file . END
+--generate--
+START creates a UNK file . END
+START UNK the file file . END
+START UNK the UNK file . END
+START creates a file file . END
+START UNK the file . END
+
+code:
+public shard id get shard ( ) {
+ return this . shard ;
+ }
+comment:
+START return the shard that the explanation is about END
+--generate--
+START returns the shard id . END
+START returns the shard id END
+START returns the shard . END
+START returns the node id . END
+START returns the id of the node . END
+
+code:
+public iterable < string > get UNK ( ) {
+ if ( mcurrent state != state . d ) {
+ return collections . empty list ( ) ;
+ }
+ return UNK list by UNK . key set ( ) ;
+ }
+comment:
+START get an iterator over the list of UNK @return UNK END
+--generate--
+START returns the UNK UNK UNK . END
+START gets the UNK UNK UNK . END
+START gets the UNK UNK UNK . @return END
+START gets the UNK UNK UNK . @return the UNK mode END
+START gets the UNK UNK UNK . @return the UNK END
+
+code:
+public void free slots ( collection < worker slot > slots ) {
+ if ( slots != null ) {
+ for ( worker slot slot : slots ) {
+ this . free slot ( slot ) ;
+ }
+ }
+ }
+comment:
+START free the slots . @param slots END
+--generate--
+START clear the UNK . @param UNK END
+START clear the UNK . END
+START UNK the UNK . END
+START UNK the window . END
+START remove all UNK . END
+
+code:
+@ override public void set screen capture disabled ( int user id , boolean disabled ) {
+ int calling uid = binder . get calling uid ( ) ;
+ if ( calling uid != process . system_ d ) {
+ throw new security exception ( String ) ;
+ }
+ synchronized ( mwindow map ) {
+ mscreen capture disabled . put ( user id , disabled ) ;
+ for ( int display ndx = mdisplay contents . size ( ) - DecimalInteger ;
+ display ndx >= DecimalInteger ;
+ -- display ndx ) {
+ window list windows = mdisplay contents . value at ( display ndx ) . get window list ( ) ;
+ for ( int win ndx = windows . size ( ) - DecimalInteger ;
+ win ndx >= DecimalInteger ;
+ -- win ndx ) {
+ final window state win = windows . get ( win ndx ) ;
+ if ( win . mhas surface && user id == user handle . get user id ( win . mowner uid ) ) {
+ win . mwin animator . set secure locked ( disabled ) ;
+ }
+ }
+ }
+ }
+ }
+comment:
+START set UNK capture disabled for specific user END
+--generate--
+START called when the user is enabled . END
+START called when the user has been UNK . END
+START called when the user has been UNK to the user id . END
+START called when the user has been UNK to the user . END
+START called when the user is removed to the user . END
+
+code:
+public boolean failed ( ) {
+ return failure reason != null ;
+ }
+comment:
+START @return true if the operation failed before UNK step three of UNK flush . END
+--generate--
+START check whether the request is UNK . END
+START @return true if the request has been UNK . END
+START check whether the request is UNK . @return true if the item is not UNK . END
+START check whether the request has been UNK . END
+START check whether the request is UNK . @return true if the item is not . END
+
+code:
+public void setup default signal ( ) {
+ set is gsm ( true ) ;
+ set voice reg state ( service state . state_ in_ e ) ;
+ set gsm roaming ( false ) ;
+ set level ( default_ l ) ;
+ update data connection state ( telephony manager . data_ d , telephony manager . network_ type_ s ) ;
+ set connectivity ( network capabilities . transport_ r , true , true ) ;
+ }
+comment:
+START NUMBER UNK NUMBER gsm . END
+--generate--
+START called by the user that is UNK to . END
+START called by the device that is UNK . END
+START called by the user that is UNK . END
+START called by the device that is UNK to the user . END
+START called by the device that is UNK to the user . @hide END
+
+code:
+public void vibrate ( long milliseconds , audio attributes attributes ) {
+ vibrate ( process . my uid ( ) , mpackage name , milliseconds , attributes ) ;
+ }
+comment:
+START UNK UNK for the specified period of time . @param milliseconds the number of milliseconds to UNK . END
+--generate--
+START sets the UNK UNK . END
+START sets the UNK UNK for the cache . END
+START sets the UNK UNK for the cache . @param code the UNK to UNK . END
+START sets the UNK UNK for the cache . @param code the UNK to UNK END
+START sets the UNK UNK . @param UNK END
+
+code:
+public entity manager factory get entity manager factory ( ) {
+ return this . entity manager factory ;
+ }
+comment:
+START return the entity manager factory that this instance should manage transactions for . END
+--generate--
+START return the configured factory manager factory to use . END
+START return the configured connection manager factory to use . END
+START return the configured connection manager factory to use for this factory . END
+START return the configured factory manager factory to use for this manager factory . END
+START return the configured factory manager factory to use for this factory . END
+
+code:
+public builder collapsed requests ( collection < hystrix collapser . collapsed request < response type , object > > UNK requests ) {
+ this . collapsed requests = UNK requests ;
+ return this ;
+ }
+comment:
+START sets UNK requests . END
+--generate--
+START UNK the UNK UNK . END
+START sets the UNK UNK . END
+START UNK the request UNK . END
+START sets the UNK UNK . @param listener the settings END
+START sets the UNK UNK . @param listener the UNK END
+
+code:
+public void clear ( ) {
+ while ( tail != head ) {
+ header fields [ tail ++ ] = null ;
+ if ( tail == header fields . length ) {
+ tail = DecimalInteger ;
+ }
+ }
+ head = DecimalInteger ;
+ tail = DecimalInteger ;
+ size = DecimalInteger ;
+ }
+comment:
+START remove all entries from the dynamic table . END
+--generate--
+START removes all resources associated with this cache . END
+START removes all resources associated with this object . END
+START removes all resources associated with the cache . END
+START removes all resources of this cache . END
+START removes all resources from the cache . END
+
+code:
+public boolean contains ( char sequence cs ) {
+ return index of ( cs ) >= DecimalInteger ;
+ }
+comment:
+START @param UNK the character sequence to search for . END
+--generate--
+START returns the array of the elements in the element . END
+START returns the array of the elements to the element . END
+START returns the array of the elements in the collection . END
+START returns the array of the elements in the map . END
+START returns the array of the elements . END
+
+code:
+public boolean contains key ( type key ) {
+ return map . contains key ( key ) ;
+ }
+comment:
+START returns true if this container has an UNK to a value for the given key . END
+--generate--
+START returns true if the key is a key for the key . END
+START returns true if the key is a key of the key . END
+START returns true if the key is a key for the specified key . END
+START returns true if this key is a key for the specified key . END
+START returns true if this key is a key for the key . END
+
+code:
+public builder add placeholder tree artifact formatted exec path ( string template , artifact tree artifact ) {
+ if ( template != null && tree artifact != null ) {
+ arguments . add ( new tree file artifact exec path with template arg ( template , tree artifact ) ) ;
+ }
+ return this ;
+ }
+comment:
+START adds a formatted string containing the exec path of a placeholder tree artifact . END
+--generate--
+START adds a path of the given directory . END
+START adds a path with the given path . END
+START adds a path of the given path to the rule . END
+START adds a path of the given path to the rule UNK . END
+START adds a path of the given directory to the rule . END
+
+code:
+org . jetbrains . kotlin . serialization . proto buf . type get expanded type ( ) ;
+comment:
+START optional . org.jetbrains.kotlin.serialization. type expanded_type = NUMBER END
+--generate--
+START optional . org.jetbrains.kotlin.serialization. type annotation = NUMBER END
+START optional . org.jetbrains.kotlin.serialization. type type = NUMBER END
+START optional . org.jetbrains.kotlin.serialization. type constructor = NUMBER END
+START optional . org.jetbrains.kotlin.serialization. type = NUMBER END
+START optional . org.jetbrains.kotlin.serialization. type </pre> NUMBER END
+
+code:
+private test case node get test case ( description description ) {
+ return description == null ? null : test case map . get ( description ) ;
+ }
+comment:
+START returns the test case node with the given test description . END
+--generate--
+START returns a new state of the UNK UNK . END
+START returns a new state of the specified UNK . END
+START returns a new UNK UNK . END
+START returns a new state of the current UNK . END
+START returns a new state of the UNK in the task . END
+
+code:
+public program fragment fixed function create ( ) {
+ internal builder sb = new internal builder ( s ) ;
+ mnum textures = DecimalInteger ;
+ for ( int i = DecimalInteger ;
+ i < max_ e ;
+ i ++ ) {
+ if ( slots [ i ] != null ) {
+ mnum textures ++ ;
+ }
+ }
+ build shader string ( ) ;
+ sb . set shader ( shader ) ;
+ type const type = null ;
+ if ( ! UNK color enable ) {
+ element . builder b = new element . builder ( s ) ;
+ b . add ( element . UNK ( s ) , String ) ;
+ type . builder type builder = new type . builder ( s , b . create ( ) ) ;
+ type builder . set x ( DecimalInteger ) ;
+ const type = type builder . create ( ) ;
+ sb . add constant ( const type ) ;
+ }
+ for ( int i = DecimalInteger ;
+ i < mnum textures ;
+ i ++ ) {
+ sb . add texture ( texture type . UNK d ) ;
+ }
+ program fragment fixed function pf = sb . create ( ) ;
+ pf . mtexture count = max_ e ;
+ if ( ! UNK color enable ) {
+ allocation constant data = allocation . create typed ( s , const type ) ;
+ field packer fp = new field packer ( DecimalInteger ) ;
+ float4 UNK = new float4 ( DecimalFloatingPoint , DecimalFloatingPoint , DecimalFloatingPoint , DecimalFloatingPoint ) ;
+ fp . add UNK ( UNK ) ;
+ constant data . set from field packer ( DecimalInteger , fp ) ;
+ pf . bind constants ( constant data , DecimalInteger ) ;
+ }
+ return pf ;
+ }
+comment:
+START @deprecated in api NUMBER creates the fixed function fragment program from the current state of the builder . END
+--generate--
+START creates a new UNK instance . END
+START creates a new UNK state . END
+START creates a new state of the UNK state . END
+START creates a new state of the UNK UNK . END
+START creates a new UNK UNK . END
+
+code:
+public void set interaction spec ( interaction spec interaction spec ) {
+ this . interaction spec = interaction spec ;
+ }
+comment:
+START set the cci interaction spec for this operation . END
+--generate--
+START set the transaction that will be used for UNK UNK . END
+START set the transaction that will be used for UNK . END
+START set the transaction that will be used for UNK . default is NUMBER . END
+START set the transaction that will be used for UNK UNK . @param registry END
+START set the transaction that will be used for UNK . default is NUMBER . @param registry END
+
+code:
+int size ( ) {
+ return UNK . size ( ) ;
+ }
+comment:
+START # of UNK in this batch @return END
+--generate--
+START @return the number of UNK UNK END
+START returns the number of UNK UNK . END
+START returns the number of UNK in the UNK . END
+START @return the number of UNK in the UNK . END
+START @return the number of UNK in the UNK END
+
+code:
+@ nullable public view get anchor view ( ) {
+ return mdrop down anchor view ;
+ }
+comment:
+START returns the view that will be used to anchor this popup . @return the popup 's anchor view END
+--generate--
+START returns the view view of this view . END
+START @return the view view of the view view . END
+START @return the view view of the view view END
+START returns the view view of this view . @return END
+START returns the view view of this view . @return the view view END
+
+code:
+private boolean remove mapping ( object row key , object column key , object value ) {
+ if ( contains mapping ( row key , column key , value ) ) {
+ remove ( row key , column key ) ;
+ return true ;
+ }
+ return false ;
+ }
+comment:
+START remove a row key / column key / value mapping , if present . END
+--generate--
+START returns true if the attribute is a elements of the element . END
+START returns true if the attribute is a elements of the specified key . END
+START returns true if the attribute has the specified element . END
+START returns true if the attribute has the given element . END
+START returns true if the attribute has the specified key . END
+
+code:
+public final int get paragraph left ( int line ) {
+ int left = DecimalInteger ;
+ int dir = get paragraph direction ( line ) ;
+ if ( dir == dir_ UNK to_ t || ! UNK text ) {
+ return left ;
+ }
+ return get paragraph leading margin ( line ) ;
+ }
+comment:
+START get the left edge of the specified UNK , UNK by left UNK . END
+--generate--
+START return the UNK of the UNK UNK UNK . END
+START return the UNK of the UNK UNK for the stack . END
+START return the UNK of the UNK UNK UNK for the stack . END
+START return the UNK of the UNK UNK UNK by the stack . END
+START return the UNK of the UNK UNK UNK for the specified UNK . END
+
+code:
+void sleep ( long millis ) {
+ try {
+ delay ( millis ) ;
+ }
+ catch ( interrupted exception ie ) {
+ assertion failed error UNK = new assertion failed error ( String ) ;
+ UNK . init cause ( ie ) ;
+ throw UNK ;
+ }
+ }
+comment:
+START UNK until the given time has elapsed . throws assertion failed error if interrupted . END
+--generate--
+START clears a UNK time . END
+START remove a time in a UNK time . END
+START remove a time in a time . END
+START remove a time in a time END
+START remove a time in the time END
+
+code:
+public void return object ( t object ) {
+ if ( object == null ) {
+ return ;
+ }
+ this . pool . offer ( object ) ;
+ }
+comment:
+START returns object back to the pool . @param object object to be returned END
+--generate--
+START remove this object to the object object . END
+START @param object the object to remove . END
+START @param object the object to add END
+START @param object the object to use END
+START @param object the object to remove END
+
+code:
+private static parameter < object , skylark type > get parameter ( string name , param param , map < string , skylark type > enforced types , map < string , string > param doc , boolean documented , boolean mandatory , boolean star , boolean star star , @ nullable object default value ) throws function signature . signature exception {
+ @ nullable skylark type official type = null ;
+ @ nullable skylark type enforced type = null ;
+ if ( star && param == null ) {
+ return new parameter . star < > ( null ) ;
+ }
+ if ( param . type ( ) != object . class ) {
+ if ( param . UNK ( ) != object . class ) {
+ official type = skylark type . of ( param . type ( ) , param . UNK ( ) ) ;
+ enforced type = official type ;
+ }
+ else {
+ official type = skylark type . of ( param . type ( ) ) ;
+ enforced type = official type ;
+ }
+ if ( param . callback enabled ( ) ) {
+ official type = skylark type . union . of ( official type , skylark type . skylark function type . of ( name , official type ) ) ;
+ enforced type = skylark type . union . of ( enforced type , skylark type . skylark function type . of ( name , enforced type ) ) ;
+ }
+ if ( param . UNK ( ) ) {
+ official type = skylark type . union . of ( official type , skylark type . e ) ;
+ enforced type = skylark type . union . of ( enforced type , skylark type . e ) ;
+ }
+ }
+ if ( enforced types != null ) {
+ enforced types . put ( param . name ( ) , enforced type ) ;
+ }
+ if ( param . doc ( ) . is empty ( ) && documented ) {
+ throw new runtime exception ( string . format ( String , param . name ( ) , name ) ) ;
+ }
+ if ( param doc != null ) {
+ param doc . put ( param . name ( ) , param . doc ( ) ) ;
+ }
+ if ( star star ) {
+ return new parameter . star star < > ( param . name ( ) , official type ) ;
+ }
+ else if ( star ) {
+ return new parameter . star < > ( param . name ( ) , official type ) ;
+ }
+ else if ( mandatory ) {
+ return new parameter . mandatory < > ( param . name ( ) , official type ) ;
+ }
+ else if ( default value != null && enforced type != null ) {
+ preconditions . check argument ( enforced type . contains ( default value ) , String , name , param . name ( ) , printer . UNK ( default value ) , enforced type ) ;
+ }
+ return new parameter . optional < > ( param . name ( ) , official type , default value ) ;
+ }
+comment:
+START then the only UNK information needed is a documentation string . END
+--generate--
+START creates the UNK values for the given type , if any . END
+START creates the UNK value for the given type , if any . END
+START creates the UNK values for the given type . END
+START creates the UNK value for the given type . END
+START creates the UNK values for the given type , if it is a UNK . END
+
+code:
+public t get body ( ) {
+ return this . body ;
+ }
+comment:
+START returns the body of this entity . END
+--generate--
+START return the description of the UNK . @return the UNK END
+START return the description of the UNK . END
+START return the description of the header . END
+START return the description of the message . END
+START return the description of the source . END
+
+code:
+public void hide empty view ( ) {
+ mempty view . set visibility ( view . e ) ;
+ mtask stack horizontal view . set visibility ( view . e ) ;
+ if ( recents . get system services ( ) . is touch exploration enabled ( ) ) {
+ mdismiss placeholder . set visibility ( view . e ) ;
+ }
+ }
+comment:
+START shows the task stack and hides the empty view . END
+--generate--
+START updates the view view . END
+START starts the view view . END
+START specify the view view . END
+START specify the task view . END
+START registers the view view . END
+
+code:
+protected void UNK if possible ( exception ex ) {
+ if ( finished async actions && listener != null ) {
+ if ( ex == null ) {
+ super . UNK ( listener ) ;
+ }
+ else {
+ listener . on failure ( ex ) ;
+ }
+ }
+ }
+comment:
+START respond if the refresh has occurred and the listener is ready . END
+--generate--
+START called when the UNK UNK UNK . END
+START called when the UNK UNK is been UNK . END
+START called when the UNK UNK UNK END
+START called when the UNK UNK is been UNK END
+START called when the UNK UNK is been UNK . @param UNK the UNK END
+
+code:
+public org . jetbrains . kotlin . serialization . debug proto buf . annotation . argument . builder add argument builder ( int index ) {
+ return get argument field builder ( ) . add builder ( index , org . jetbrains . kotlin . serialization . debug proto buf . annotation . argument . get default instance ( ) ) ;
+ }
+comment:
+START repeated . org.jetbrains.kotlin.serialization. annotation. argument argument = NUMBER END
+--generate--
+START repeated . org.jetbrains.kotlin.serialization. annotation. argument = NUMBER END
+START repeated . org.jetbrains.kotlin.serialization. annotation. argument value = NUMBER END
+START repeated . org.jetbrains.kotlin.serialization. annotation. argument. value = NUMBER END
+START repeated . org.jetbrains.kotlin.serialization. type. argument argument = NUMBER END
+START repeated . org.jetbrains.kotlin.serialization. annotation. argument argument = NUMBER END
+
+code:
+private void update sticky device status ( int uid , UNK device listener listener ) {
+ synchronized ( UNK by info ) {
+ for ( device device : UNK by info . values ( ) ) {
+ if ( device . is uid allowed ( uid ) ) {
+ try {
+ midi device status status = device . get device status ( ) ;
+ if ( status != null ) {
+ listener . on device status changed ( status ) ;
+ }
+ }
+ catch ( remote exception e ) {
+ log . e ( g , String , e ) ;
+ }
+ }
+ }
+ }
+ }
+comment:
+START inform listener of the status of all known devices . END
+--generate--
+START called when the event is UNK . END
+START called when the user is UNK . END
+START @param UNK the new session END
+START @param UNK the event to use END
+START @param UNK the event to set END
+
+code:
+public void zero ( ) {
+ index a = DecimalInteger ;
+ index b = DecimalInteger ;
+ type a = DecimalInteger ;
+ type b = DecimalInteger ;
+ }
+comment:
+START UNK out the data END
+--generate--
+START @return the UNK UNK END
+START UNK the UNK UNK END
+START @return the UNK END
+START UNK the UNK END
+START @return UNK END
+
+code:
+private int parse char ( ) throws exception {
+ while ( _chunk length <= DecimalInteger ) {
+ if ( _is last chunk ) return - DecimalInteger ;
+ int code = read ( ) ;
+ switch ( code ) {
+ case String : case String : _is last chunk = false ;
+ _chunk length = ( read ( ) << DecimalInteger ) + read ( ) ;
+ break ;
+ case String : case String : _is last chunk = true ;
+ _chunk length = ( read ( ) << DecimalInteger ) + read ( ) ;
+ break ;
+ default : throw expect ( String , code ) ;
+ }
+ }
+ _chunk length -- ;
+ return parse utf8 char ( ) ;
+ }
+comment:
+START reads a character from the underlying stream . END
+--generate--
+START reads a stream from the stream . END
+START reads a UNK from the stream . END
+START reads a stream . END
+START reads the stream from the stream . END
+START reads a byte from the stream . END
+
+code:
+public string get dummy name ( ) {
+ return this . dummy name ;
+ }
+comment:
+START return the name of the UNK column . END
+--generate--
+START return the name of the UNK . END
+START return the UNK of the UNK . END
+START return the UNK name . END
+START return the name of the request . END
+START return the name of the UNK END
+
+code:
+public void perform recovery restart ( ) throws exception {
+ synchronized ( mutex ) {
+ if ( state != index shard state . g ) {
+ throw new index shard not UNK exception ( shard id , state ) ;
+ }
+ final engine engine = this . current engine reference . get and set ( null ) ;
+ utils . close ( engine ) ;
+ recovery state ( ) . set stage ( recovery state . stage . t ) ;
+ }
+ }
+comment:
+START called if recovery has to be UNK after network error / delay UNK END
+--generate--
+START called by the UNK thread UNK . END
+START called by the UNK UNK UNK . END
+START called by UNK thread UNK . END
+START called by the UNK UNK . END
+START called by the UNK UNK to the UNK . END
+
+code:
+public xcontent builder to xcontent grouped by parents ( xcontent builder builder , params params ) throws exception {
+ to xcontent common ( builder , params ) ;
+ builder . start object ( String ) ;
+ for ( task group group : get task groups ( ) ) {
+ builder . field ( group . get task info ( ) . get task id ( ) . to string ( ) ) ;
+ group . to content ( builder , params ) ;
+ }
+ builder . end object ( ) ;
+ return builder ;
+ }
+comment:
+START convert this response to xcontent UNK by parent tasks . END
+--generate--
+START creates all UNK UNK from the cluster . END
+START creates all UNK UNK from the cluster UNK END
+START creates all UNK UNK with the cluster UNK END
+START creates all UNK UNK from the cluster END
+START creates all UNK UNK with the cluster END
+
+code:
+private string get random UNK type ( boolean dynamic ) {
+ int i = rng . next int ( UNK UNK c . length ) ;
+ return ( dynamic ) ? UNK UNK c [ i ] : UNK UNK c [ i ] ;
+ }
+comment:
+START get the type name of a random UNK entity . END
+--generate--
+START create a UNK of the UNK UNK . END
+START create a UNK UNK for the UNK . END
+START create a UNK UNK . END
+START create a UNK of the UNK . END
+START create a UNK of the UNK UNK END
+
+code:
+public json content assert has json path boolean value ( char sequence expression , object ... args ) {
+ new json path value ( expression , args ) . assert has value ( boolean . class , String ) ;
+ return this ;
+ }
+comment:
+START verify that the actual value at the given json path produces a non-null boolean result . END
+--generate--
+START verifies that the actual value at the given json path equal to the specified json . END
+START verifies that the actual value at the given json json path equal to the specified json . END
+START verifies that the actual value at the given json path path equal to the specified json . END
+START verifies that the actual value at the given json path using the specified json path . END
+START verifies that the actual value at the given json path using the specified json . END
+
+code:
+@ adaptive ( {
+ constants . server_ y }
+ ) http server bind ( l url , http handler handler ) ;
+comment:
+START bind the server . @param url server url . @return server . END
+--generate--
+START @param message the message to UNK . @return this builder . END
+START @param message the message to UNK . @return the builder . END
+START @param message the message to . @return the builder . END
+START @param message the message to UNK . END
+START @param message the message to . END
+
+code:
+public final status hints get status hints ( ) {
+ return mstatus hints ;
+ }
+comment:
+START @return the status UNK for this conference . END
+--generate--
+START returns the status of this instance . END
+START @return the status of this instance . END
+START returns the status of this event . END
+START returns the status of this instance . @return the UNK END
+START @return the status status END
+
+code:
+view get scrap view ( int position ) {
+ final int which scrap = adapter . get item view type ( position ) ;
+ if ( which scrap < DecimalInteger ) {
+ return null ;
+ }
+ if ( mview type count == DecimalInteger ) {
+ return retrieve from scrap ( mcurrent scrap , position ) ;
+ }
+ else if ( which scrap < UNK views . length ) {
+ return retrieve from scrap ( UNK views [ which scrap ] , position ) ;
+ }
+ return null ;
+ }
+comment:
+START @return a view from the UNK views collection . these are UNK . END
+--generate--
+START sets the UNK of the UNK . END
+START sets the UNK of the UNK . @param UNK END
+START sets the UNK UNK . END
+START sets the UNK of the UNK . @param UNK the view of the UNK . END
+START sets the UNK of the UNK . @param UNK the view of the UNK END
+
+code:
+public bytes reference internal source ref ( ) {
+ return source ;
+ }
+comment:
+START internal source representation , might be compressed ... END
+--generate--
+START @return the source source END
+START @return the source path END
+START @return the data source END
+START returns the source source END
+START @return the path of the source END
+
+code:
+public path get package directory ( ) {
+ return package directory ;
+ }
+comment:
+START returns the directory containing the package 's build file . END
+--generate--
+START returns the path of the file directory . END
+START returns the path of the UNK directory . END
+START returns the path of the package file . END
+START returns the package path for the package . END
+START returns the path of the file directory . @return the file END
+
+code:
+public builder add all function ( java . lang . iterable < ? extends org . jetbrains . kotlin . serialization . debug proto buf . function > values ) {
+ if ( function builder_ == null ) {
+ ensure function is mutable ( ) ;
+ org . jetbrains . kotlin . protobuf . abstract message lite . builder . add all ( values , function_ ) ;
+ on changed ( ) ;
+ }
+ else {
+ function builder_ . add all messages ( values ) ;
+ }
+ return this ;
+ }
+comment:
+START repeated . org.jetbrains.kotlin.serialization. function function = NUMBER END
+--generate--
+START repeated . org.jetbrains.kotlin.serialization. function function NUMBER END
+START repeated . org.jetbrains.kotlin.serialization. function function = NUMBER END
+START repeated . org.jetbrains.kotlin.serialization. function function function NUMBER END
+START repeated . org.jetbrains.kotlin.serialization. property function = NUMBER END
+START optional . org.jetbrains.kotlin.serialization. function function = NUMBER END
+
+code:
+public boolean is skylark testable ( ) {
+ return skylark testable ;
+ }
+comment:
+START returns true if this rule class is UNK and is subject to UNK tests . END
+--generate--
+START returns true iff all UNK should be used for UNK UNK . END
+START returns true iff all UNK should be used for UNK . END
+START returns true iff all UNK should be used for UNK END
+START returns true iff all UNK should be used for UNK UNK END
+START returns true if all UNK should be used for UNK END
+
+code:
+< t > void convert and send ( string destination name , t payload ) throws messaging exception ;
+comment:
+START @param destination name the destination name to resolve @param payload the object to use as payload END
+--generate--
+START writes the given message from the given message with the given destination . END
+START writes the given message from the given message from the given destination . END
+START writes the given message from the given message with the given description . END
+START writes the given message from the given message from the given resource . END
+START writes the given message from the given message with the given resource . END
+
+code:
+public component name get global proxy admin ( ) {
+ if ( service != null ) {
+ try {
+ return service . get global proxy admin ( my user id ( ) ) ;
+ }
+ catch ( remote exception e ) {
+ throw e . rethrow from system server ( ) ;
+ }
+ }
+ return null ;
+ }
+comment:
+START returns the component name setting the global proxy . @hide END
+--generate--
+START returns the device mode for this view . END
+START returns the device mode for this device . END
+START returns the device mode for the device . END
+START returns the device mode for this UNK . END
+START returns the device used for the device . END
+
+code:
+public void reset UNK ( ) {
+ expect major = - DecimalInteger ;
+ expect minor = - DecimalInteger ;
+ expect code = - DecimalInteger ;
+ expect location = null ;
+ expect UNK = - DecimalInteger ;
+ expect error id = - DecimalInteger ;
+ expect ssl errors = - DecimalInteger ;
+ expect certificate = null ;
+ expect details . set length ( DecimalInteger ) ;
+ expect headers . clear ( ) ;
+ for ( int i = DecimalInteger ;
+ i < test_ num_ s ;
+ i ++ ) {
+ UNK [ i ] = false ;
+ not UNK [ i ] = false ;
+ events received [ i ] = false ;
+ }
+ for ( int i = DecimalInteger ;
+ i < expect data length ;
+ i ++ ) {
+ expect data [ i ] = DecimalInteger ;
+ }
+ expect data length = - DecimalInteger ;
+ }
+comment:
+START reset all UNK values for UNK END
+--generate--
+START UNK the UNK UNK . END
+START clears the UNK UNK . END
+START UNK the UNK UNK END
+START resets the UNK UNK END
+START clears the UNK UNK END
+
+code:
+@ override public string get name ( ) {
+ return this . name ;
+ }
+comment:
+START @return the name of the breaker END
+--generate--
+START return the name of the request . END
+START return the name of the request . @return the name END
+START return the name of the service . END
+START return the name of the attribute . END
+START return the name of the bean . END
+
+code:
+private boolean is currently showing ( list < menu item > menu items ) {
+ return UNK menu items . equals ( get showing menu items references ( menu items ) ) ;
+ }
+comment:
+START returns true if this floating toolbar is currently showing the specified menu items . END
+--generate--
+START returns whether the view is currently UNK . END
+START returns whether the task is UNK . END
+START returns whether the view is UNK . END
+START returns true if the task is UNK . END
+START returns true if the animation is UNK . END
+
+code:
+public static boolean supports format ( string mime type ) {
+ if ( ! is available ( ) ) {
+ return false ;
+ }
+ string codec name = get codec name ( mime type ) ;
+ return codec name != null && UNK has decoder ( codec name ) ;
+ }
+comment:
+START returns whether the underlying library supports the specified mime type . END
+--generate--
+START returns true if the given type is UNK . END
+START returns true if the given type is the description of the event . END
+START returns true if the given type is UNK . @return true if the attribute is found . END
+START returns true if the given type is UNK . @return true if the attribute is not UNK . END
+START returns true if the given type is UNK . @return true if the attribute is found END
+
+code:
+map < string , string > get extra hidden fields ( http servlet request request ) ;
+comment:
+START invoked after all form fields have been rendered . END
+--generate--
+START creates an map to the UNK map . END
+START the map of the map to UNK . END
+START the map of the map . END
+START the map map for UNK UNK . END
+START the map of the map to use . END
+
+code:
+public int get ringer mode ( ) {
+ iaudio service service = get service ( ) ;
+ try {
+ return service . get ringer mode external ( ) ;
+ }
+ catch ( remote exception e ) {
+ throw e . rethrow from system server ( ) ;
+ }
+ }
+comment:
+START returns the current UNK mode . END
+--generate--
+START returns the current UNK mode . END
+START returns the UNK mode . END
+START returns the current UNK mode . @hide END
+START returns the current UNK state . END
+START returns the current UNK UNK . END
+
+code:
+boolean supports metadata delete ( session session , table handle table handle , table layout handle table layout handle ) ;
+comment:
+START @return whether delete without table scan is supported END
+--generate--
+START @return whether we can be UNK . END
+START @return whether we can be UNK END
+START @return whether we can be required END
+START @return whether we can be overridden by UNK END
+START @return whether we can be overridden END
+
+code:
+boolean get pos for time ( long time , float [ ] pos ) {
+ if ( mtap location != null ) {
+ pos [ DecimalInteger ] = mtap location [ DecimalInteger ] ;
+ pos [ DecimalInteger ] = mtap location [ DecimalInteger ] ;
+ return true ;
+ }
+ if ( time == mend time ) {
+ return UNK measure . get pos UNK ( get length ( ) , pos , null ) ;
+ }
+ float length = mtime to length conversion * ( ( float ) ( time - mstart time ) ) ;
+ return UNK measure . get pos UNK ( length , pos , null ) ;
+ }
+comment:
+START assumes has point for time returns true END
+--generate--
+START returns null if there is a UNK value . END
+START returns null if there is a specified value . END
+START returns null if there is an UNK value . END
+START returns null if there is a given value . END
+START returns null if there is an one value . END
+
+code:
+protected abstract void engine init ( key store key store ) throws exception ;
+comment:
+START initializes this factory with a source of certificate UNK and related trust material . END
+--generate--
+START UNK all the UNK to the UNK . END
+START called for the UNK UNK . END
+START UNK all the UNK UNK . END
+START called for UNK UNK . END
+START UNK all the UNK to the UNK END
+
+code:
+public void put ( i url , object request ) throws rest client exception {
+ this . rest template . put ( url , request ) ;
+ }
+comment:
+START creates a new resource by UNK the given object to url . END
+--generate--
+START creates a new builder with the given url . END
+START creates a new builder with the given path . END
+START create a new builder with the given path . END
+START creates a new builder with the given map . END
+START creates a new builder with the given uri . END
+
+code:
+public void set screen ( screen screen ) {
+ if ( this . screen != null ) this . screen . hide ( ) ;
+ this . screen = screen ;
+ if ( this . screen != null ) {
+ this . screen . show ( ) ;
+ this . screen . resize ( gdx . graphics . get width ( ) , gdx . graphics . get height ( ) ) ;
+ }
+ }
+comment:
+START sets the current screen . END
+--generate--
+START sets the view of the animation . END
+START sets the view of the task . END
+START sets the view of the window . END
+START sets the view of the animation in the animation . END
+START sets the view of the animation in the window . END
+
+code:
+public void add at ( int i , int value ) {
+ switch ( i ) {
+ case DecimalInteger : x += value ;
+ return ;
+ case DecimalInteger : y += value ;
+ return ;
+ default : throw new index out of bounds exception ( String ) ;
+ }
+ }
+comment:
+START @hide add the vector field value by index @param i @param value END
+--generate--
+START @hide add the vector field value by index @param i @param value END
+START @hide vector the vector field value by index @param i @param value END
+START @hide the vector field value by index @param i @param value END
+START @hide add the vector field value by index @param i END
+START @hide vector the vector field value by index @param i END
+
+code:
+public float get origin y ( ) {
+ return origin y ;
+ }
+comment:
+START @return y axis origin END
+--generate--
+START returns the position of the UNK matrix . END
+START returns the UNK position of the UNK . END
+START returns the position of the UNK matrix . @return END
+START returns the UNK position of the stack . END
+START returns the position of the UNK matrix END
+
+code:
+public object invoke method ( string name , object arg ) {
+ object [ ] args = ( object [ ] ) arg ;
+ if ( String . equals ( name ) && args . length == DecimalInteger && args [ DecimalInteger ] instanceof closure ) {
+ return beans ( ( closure ) args [ DecimalInteger ] ) ;
+ }
+ else if ( String . equals ( name ) ) {
+ string ref name ;
+ if ( args [ DecimalInteger ] == null ) throw new illegal argument exception ( String ) ;
+ if ( args [ DecimalInteger ] instanceof runtime bean reference ) {
+ ref name = ( ( runtime bean reference ) args [ DecimalInteger ] ) . get bean name ( ) ;
+ }
+ else {
+ ref name = args [ DecimalInteger ] . to string ( ) ;
+ }
+ boolean parent ref = false ;
+ if ( args . length > DecimalInteger ) {
+ if ( args [ DecimalInteger ] instanceof boolean ) {
+ parent ref = ( boolean ) args [ DecimalInteger ] ;
+ }
+ }
+ return new runtime bean reference ( ref name , parent ref ) ;
+ }
+ else if ( this . namespaces . contains key ( name ) && args . length > DecimalInteger && args [ DecimalInteger ] instanceof closure ) {
+ groovy dynamic element reader reader = create dynamic element reader ( name ) ;
+ reader . invoke method ( String , args ) ;
+ }
+ else if ( args . length > DecimalInteger && args [ DecimalInteger ] instanceof closure ) {
+ return invoke bean UNK method ( name , args ) ;
+ }
+ else if ( args . length > DecimalInteger && ( args [ DecimalInteger ] instanceof class || args [ DecimalInteger ] instanceof runtime bean reference || args [ DecimalInteger ] instanceof map ) ) {
+ return invoke bean UNK method ( name , args ) ;
+ }
+ else if ( args . length > DecimalInteger && args [ args . length - DecimalInteger ] instanceof closure ) {
+ return invoke bean UNK method ( name , args ) ;
+ }
+ meta class UNK = default groovy methods . get meta class ( get registry ( ) ) ;
+ if ( ! UNK . UNK to ( get registry ( ) , name , args ) . is empty ( ) ) {
+ return UNK . invoke method ( get registry ( ) , name , args ) ;
+ }
+ return this ;
+ }
+comment:
+START this method overrides method invocation to create beans for each method name that takes a class argument . END
+--generate--
+START creates the UNK for the given UNK . END
+START creates a UNK for the given UNK . END
+START return the UNK for the given UNK . END
+START returns the UNK for the given UNK . END
+START creates the UNK for the given name . END
+
+code:
+public static double UNK long to double ( long value ) {
+ value = value ^ ( value > > DecimalInteger ) & long . max_ e ;
+ return double . long bits to double ( value ) ;
+ }
+comment:
+START converts a UNK long to double . END
+--generate--
+START UNK UNK . END
+START UNK UNK value . END
+START UNK NUMBER . END
+START UNK value . END
+START UNK UNK . @param value END
+
+code:
+public static allocation id new initializing ( ) {
+ return new allocation id ( ds . random base64 d ( ) , null ) ;
+ }
+comment:
+START creates a new allocation id for initializing allocation . END
+--generate--
+START create a new instance for the request . END
+START create a new instance of the request . END
+START creates a new instance for the request . END
+START create a new instance for the specified request . END
+START create a new instance of the request that this request can be used for . END
+
+code:
+public final int get vertex count ( ) {
+ return m_count ;
+ }
+comment:
+START get the vertex count . @return END
+--generate--
+START get the number of UNK . @return END
+START get the current amount . END
+START get the current item . END
+START get the number of UNK . END
+START get the number . END
+
+code:
+public void set port name ( string port name ) {
+ this . port name = port name ;
+ }
+comment:
+START set the name of the port . corresponds to the `` UNK port '' name . END
+--generate--
+START set the UNK description for this request . END
+START set the UNK description to use . END
+START set the UNK description . END
+START set the UNK description . @hide END
+START set the UNK description for this request . @param resource the context END
+
+code:
+protected abstract t get mapping for method ( method method , class < ? > handler type ) ;
+comment:
+START provide the mapping for a handler method . END
+--generate--
+START @param method the method to create a UNK for the given method . END
+START @param method the method to create the method for the given method . END
+START @param method the method to create the UNK for the given method . END
+START @param method the method to create a UNK for the given request . END
+START @param method the method to create a UNK for the given bean . END
+
+code:
+protected abstract trust manager [ ] engine get trust UNK ( ) ;
+comment:
+START returns one trust manager for each type of trust material . END
+--generate--
+START gets the UNK UNK . END
+START gets the UNK of the UNK . END
+START gets the UNK of the UNK UNK . END
+START get the UNK UNK . END
+START get the UNK of the UNK . END
+
+code:
+public boolean has kind ( ) {
+ return ( ( bit field0_ & 0x00000002 ) == 0x00000002 ) ;
+ }
+comment:
+START optional . org.jetbrains.kotlin.serialization.js. library. kind kind = NUMBER -lsb- default = plain -rsb- END
+--generate--
+START optional . org.jetbrains.kotlin.serialization. annotation annotation = NUMBER -lsb- default = NUMBER -rsb- END
+START optional . org.jetbrains.kotlin.serialization. annotation annotation = NUMBER -lsb- default = -rsb- -rsb- END
+START optional . org.jetbrains.kotlin.serialization. annotation annotation = NUMBER END
+START optional . org.jetbrains.kotlin.serialization. annotation annotation = NUMBER -lsb- default = = -rsb- END
+START optional . org.jetbrains.kotlin.serialization. annotation annotation = NUMBER -rsb- END
+
+code:
+public boolean auto url detect ( ) {
+ return mauto url detect ;
+ }
+comment:
+START checks whether this searchable activity has auto url detection turned on . END
+--generate--
+START @return whether the UNK should be UNK . END
+START @return true if the file should be UNK END
+START @return whether the UNK should be UNK END
+START @return true if the UNK is UNK END
+START @return true if the file is UNK END
+
+code:
+public boolean exists ( ) {
+ switch ( type ) {
+ case internal : if ( file . exists ( ) ) return true ;
+ case classpath : return file wrapper . class . get resource ( String + file . get path ( ) . replace ( String , String ) ) != null ;
+ }
+ return file ( ) . exists ( ) ;
+ }
+comment:
+START returns true if the file exists . END
+--generate--
+START returns true if this instance is UNK . END
+START returns true if this instance is UNK . @return the element . END
+START returns true if this instance is UNK . @return true if the code has been equal . END
+START returns true if this instance is UNK . @return true if the attribute has an '' . END
+START returns true if this instance is UNK . @return true if the attribute has an empty . END
+
+code:
+public void quit ( ) {
+ if ( ! quit . get and set ( true ) ) {
+ handler handler = mrequest thread . wait and get handler ( ) ;
+ handler . send message at front of queue ( handler . obtain message ( msg_ p ) ) ;
+ mrequest thread . quit safely ( ) ;
+ try {
+ mrequest thread . join ( ) ;
+ }
+ catch ( interrupted exception e ) {
+ log . e ( g , string . format ( String , mrequest thread . get name ( ) , mrequest thread . get id ( ) ) ) ;
+ }
+ }
+ }
+comment:
+START quit the request thread , and clean up everything . END
+--generate--
+START UNK up the thread . END
+START UNK up the event . END
+START UNK up the state . END
+START UNK up the UNK . END
+START UNK up the thread END
+
+code:
+private boolean are active high power location requests ( ) {
+ list < app ops manager . package ops > packages = mapp ops manager . get packages for ops ( UNK power request app op array ) ;
+ if ( packages != null ) {
+ final int num packages = packages . size ( ) ;
+ for ( int package ind = DecimalInteger ;
+ package ind < num packages ;
+ package ind ++ ) {
+ app ops manager . package ops package op = packages . get ( package ind ) ;
+ list < app ops manager . op entry > op entries = package op . get ops ( ) ;
+ if ( op entries != null ) {
+ final int num ops = op entries . size ( ) ;
+ for ( int op ind = DecimalInteger ;
+ op ind < num ops ;
+ op ind ++ ) {
+ app ops manager . op entry op entry = op entries . get ( op ind ) ;
+ if ( op entry . get op ( ) == app ops manager . op_ UNK high_ power_ n ) {
+ if ( op entry . is running ( ) ) {
+ return true ;
+ }
+ }
+ }
+ }
+ }
+ }
+ return false ;
+ }
+comment:
+START returns true if there currently exist active high power location requests . END
+--generate--
+START @return true if there are UNK UNK . END
+START @return true if there is a UNK . END
+START @return true if all UNK are UNK . END
+START @return true if there are UNK . END
+START @return true if all UNK UNK END
+
+code:
+void set file name ( string file name ) {
+ this . file name = file name ;
+ }
+comment:
+START the filename is only used in the to string representation . END
+--generate--
+START @param name the name to use . END
+START @param name the name to set . END
+START @param name the name to set END
+START @param name the name to use for this file END
+START @param name the name to use for the file END
+
+code:
+public void rename all temp files ( ) throws exception {
+ ensure ref count ( ) ;
+ store . rename temp files safe ( temp file names ) ;
+ }
+comment:
+START UNK all temporary files to their true name , potentially overriding existing files END
+--generate--
+START creates all the UNK UNK UNK . END
+START creates all UNK UNK from the current UNK . END
+START UNK all the UNK UNK . END
+START creates all the UNK UNK . END
+START creates all UNK UNK from the UNK . END
+
+code:
+protected string http connections ( ) {
+ return name ( http connection factory . class , bind host , integer . to string ( port ) , String ) ;
+ }
+comment:
+START get name of the timer that tracks incoming http connections END
+--generate--
+START returns the service of the session . END
+START returns the service of the service to use . END
+START returns the service of the session END
+START returns the service of the service END
+START returns the underlying service END
+
+code:
+public builder add type parameter ( int index , org . jetbrains . kotlin . serialization . proto buf . type parameter . builder builder for value ) {
+ ensure type parameter is mutable ( ) ;
+ type parameter_ . add ( index , builder for value . build ( ) ) ;
+ return this ;
+ }
+comment:
+START repeated . org.jetbrains.kotlin.serialization. type parameter type_parameter = NUMBER END
+--generate--
+START repeated . org.jetbrains.kotlin.serialization. type type_parameter = NUMBER END
+START repeated . org.jetbrains.kotlin.serialization. type parameter type_parameter = NUMBER END
+START repeated . org.jetbrains.kotlin.serialization. type parameter value_parameter = NUMBER END
+START repeated . org.jetbrains.kotlin.serialization. value parameter type_parameter = NUMBER END
+START repeated . org.jetbrains.kotlin.serialization. type type type_parameter = NUMBER END
+
+code:
+public affine2 pre rotate ( float degrees ) {
+ if ( degrees == DecimalInteger ) return this ;
+ float cos = math utils . cos deg ( degrees ) ;
+ float sin = math utils . sin deg ( degrees ) ;
+ float UNK = cos * m00 - sin * m10 ;
+ float UNK = cos * m01 - sin * m11 ;
+ float UNK = cos * m02 - sin * m12 ;
+ float UNK = sin * m00 + cos * m10 ;
+ float UNK = sin * m01 + cos * m11 ;
+ float UNK = sin * m02 + cos * m12 ;
+ m00 = UNK ;
+ m01 = UNK ;
+ m02 = UNK ;
+ m10 = UNK ;
+ m11 = UNK ;
+ m12 = UNK ;
+ return this ;
+ }
+comment:
+START @param degrees the angle in degrees @return this matrix for the purpose of chaining . END
+--generate--
+START @param matrix the matrix to be set . @return this matrix for the matrix . END
+START @param matrix the matrix to be set . END
+START @param axis the matrix to be set . END
+START @param matrix the matrix to set . END
+START @param matrix the matrix to set END
+
+code:
+public string other bucket key ( ) {
+ return other bucket key ;
+ }
+comment:
+START get the key to use for the bucket for documents not matching any filter . END
+--generate--
+START returns the key for the UNK key . END
+START returns the key of the UNK key . END
+START returns the key of the UNK UNK . END
+START returns the key of the UNK key . @return the UNK of the UNK END
+START returns the key of the UNK key . @return the UNK UNK END
+
+code:
+public static generic array type array of ( type component type ) {
+ return new generic array type impl ( component type ) ;
+ }
+comment:
+START @return a generic array type . END
+--generate--
+START returns an object containing the object of the object . END
+START return an object containing the object of the object . END
+START returns an object containing the object of the type of the object . END
+START returns an object containing the object of the object of the object . END
+START returns an object containing the object of the array of the object . END
+
+code:
+< t > t get native response ( class < t > required type ) ;
+comment:
+START return the underlying native response object , if available . END
+--generate--
+START return the response for the request , if any . END
+START @return the response for the request , if any . END
+START return the response for the request , or null if it is not UNK . END
+START return the response for the request . END
+START @return the response for the request END
+
+code:
+private static boolean app UNK full backup ( package info pkg ) {
+ if ( pkg . application info . backup agent name != null ) {
+ return ( pkg . application info . flags & application info . flag_ full_ backup_ y ) != DecimalInteger ;
+ }
+ return true ;
+ }
+comment:
+START does not check overall backup UNK policy ! END
+--generate--
+START called by UNK UNK . END
+START called by UNK UNK UNK . END
+START called by the UNK UNK . END
+START the UNK UNK from the package . END
+START called by UNK UNK UNK END
+
+code:
+@ suppress warnings ( String ) public < t > t get id ( object entity , class < t > id type ) {
+ object id = get id ( entity ) ;
+ assert . is instance of ( id type , id , String ) ;
+ return ( t ) id ;
+ }
+comment:
+START return the id of the given entity cast to a specific type . END
+--generate--
+START gets the instance of the key . END
+START gets the instance of the key . @param type the type to use . END
+START gets the instance of the key . @param type the id of the instance to use . END
+START gets the instance of the key . @param type the id of the object to use . END
+START gets the instance of the key . @param type the id of the instance END
+
+code:
+public void set code phase in UNK ( double value ) {
+ set flag ( has_ code_ e ) ;
+ UNK phase in UNK = value ;
+ }
+comment:
+START sets the UNK in UNK . END
+--generate--
+START sets the UNK of the UNK . END
+START sets the UNK UNK . END
+START sets the UNK value . END
+START sets the UNK of the UNK UNK . END
+START sets the UNK of the UNK . @param value the value to use END
+
+code:
+@ request mapping ( String ) public mobile product get product mobile ( ) {
+ mobile product mobile product = new mobile product ( ) ;
+ mobile product . set price ( price client . get price ( ) ) ;
+ return mobile product ;
+ }
+comment:
+START retrieves product information that mobile clients need @return product information for clients on a mobile device END
+--generate--
+START creates a new UNK of the UNK UNK . END
+START creates a new UNK of the UNK of the UNK UNK . END
+START creates a new UNK of the UNK of the UNK UNK . @return END
+START creates a new UNK of the UNK UNK . @return END
+START creates a new UNK of the UNK of the UNK UNK END
+
+code:
+protected void on draw ( shape shape , canvas canvas , paint paint ) {
+ shape . draw ( canvas , paint ) ;
+ }
+comment:
+START subclasses can override for special effects such as multiple layers , UNK , etc. . END
+--generate--
+START UNK the UNK UNK . END
+START UNK for UNK UNK . END
+START sets the UNK UNK . END
+START UNK the UNK UNK END
+START UNK the UNK UNK . @param menu the UNK END
+
+code:
+private static context create activity context ( context context , component name activity ) {
+ context UNK context = null ;
+ try {
+ UNK context = context . create package context ( activity . get package name ( ) , DecimalInteger ) ;
+ }
+ catch ( package manager . name not found exception e ) {
+ log . e ( log_ g , String + activity . get package name ( ) ) ;
+ }
+ catch ( java . lang . security exception e ) {
+ log . e ( log_ g , String + activity . get package name ( ) , e ) ;
+ }
+ return UNK context ;
+ }
+comment:
+START creates a context for another activity . END
+--generate--
+START return the default context context . END
+START return the default context context END
+START @param context context the current context END
+START @param context context the context context END
+START @param context context the package context END
+
+code:
+public void call activity on restart ( activity activity ) {
+ activity . on restart ( ) ;
+ }
+comment:
+START the default implementation simply calls through to that method . @param activity the activity being UNK . END
+--generate--
+START the default implementation changes to the activity that has been removed . @param activity the activity service . END
+START the default implementation changes to the activity that that is removed . END
+START the default implementation changes to the activity that has been removed . END
+START the default implementation changes to the activity that that has been removed . END
+START the default implementation changes to the activity that that is removed . @param activity the activity thread END
+
+code:
+public builder clear setter flags ( ) {
+ bit field0_ = ( bit field0_ & ~ 0x00000400 ) ;
+ setter flags_ = DecimalInteger ;
+ return this ;
+ }
+comment:
+START optional int32 UNK = NUMBER END
+--generate--
+START optional int32 UNK = NUMBER END
+START optional int32 = NUMBER END
+START optional optional UNK = NUMBER END
+START required int32 UNK = NUMBER END
+START optional string UNK = NUMBER END
+
+code:
+public void test took with real clock ( ) throws exception {
+ run test took ( false ) ;
+ }
+comment:
+START test took UNK with system UNK time END
+--generate--
+START test an UNK with a UNK UNK END
+START test an UNK with a UNK UNK . END
+START test an UNK with a UNK END
+START test test with a UNK UNK END
+START test test with a single UNK END
+
+code:
+public final void set zero ( ) {
+ ex . x = DecimalFloatingPoint ;
+ ey . x = DecimalFloatingPoint ;
+ ex . y = DecimalFloatingPoint ;
+ ey . y = DecimalFloatingPoint ;
+ }
+comment:
+START set as the zero matrix . END
+--generate--
+START this is UNK . END
+START the UNK is UNK . END
+START sets the UNK UNK . END
+START this is a UNK . END
+START sets the UNK UNK END
+
+code:
+public array < t > get items ( ) {
+ return items ;
+ }
+comment:
+START returns the internal items array . END
+--generate--
+START returns the list of UNK . END
+START returns the UNK UNK . END
+START returns the list of UNK UNK . END
+START returns the list of UNK END
+START returns the list of UNK UNK END
+
+code:
+public iterable < label > get root causes ( ) {
+ return root causes ;
+ }
+comment:
+START get the root causes of the target . may be empty . END
+--generate--
+START returns the list of UNK UNK . END
+START returns the list of UNK that UNK to . END
+START returns the list of UNK that UNK to be added . END
+START returns the list of UNK that UNK to be added in the rule . END
+START returns the list of UNK that UNK to be added to the rule . END
+
+code:
+public static void drop table ( database db , boolean if exists ) {
+ string sql = String + ( if exists ? String : String ) + String ;
+ db . exec l ( sql ) ;
+ }
+comment:
+START drops the underlying database table . END
+--generate--
+START drops the underlying database table . END
+START creates the underlying database table . END
+START database underlying database table . END
+START drops the database table . END
+START underlying database table . END
+
+code:
+void set device owner remote bugreport uri and hash ( string remote bugreport uri , string remote bugreport hash ) {
+ synchronized ( lock ) {
+ if ( mdevice owner != null ) {
+ mdevice owner . remote bugreport uri = remote bugreport uri ;
+ mdevice owner . remote bugreport hash = remote bugreport hash ;
+ }
+ write device owner ( ) ;
+ }
+ }
+comment:
+START sets the remote bugreport uri and hash , and also writes to the file . END
+--generate--
+START sets the UNK UNK . END
+START sets the UNK UNK UNK . END
+START called for UNK UNK . END
+START sets the UNK UNK for the UNK . END
+START sets the UNK UNK UNK for the UNK . END
+
+code:
+public nodes stats request indices ( boolean indices ) {
+ if ( indices ) {
+ this . indices . all ( ) ;
+ }
+ else {
+ this . indices . clear ( ) ;
+ }
+ return this ;
+ }
+comment:
+START should indices stats be returned . END
+--generate--
+START sets the indices to be returned . END
+START should the node node be returned . END
+START sets the indices to be executed . END
+START should the node to be returned . END
+START sets the indices to be returned END
+
+code:
+expression cast ( locals locals ) {
+ cast cast = analyzer UNK . get legal cast ( location , actual , expected , explicit , internal ) ;
+ if ( cast == null ) {
+ if ( constant == null || this instanceof constant ) {
+ return this ;
+ }
+ else {
+ constant econstant = new constant ( location , constant ) ;
+ econstant . analyze ( locals ) ;
+ if ( ! expected . equals ( econstant . actual ) ) {
+ throw create error ( new illegal state exception ( String ) ) ;
+ }
+ return econstant ;
+ }
+ }
+ else {
+ if ( constant == null ) {
+ cast ecast = new cast ( location , this , cast ) ;
+ ecast . statement = statement ;
+ ecast . actual = expected ;
+ ecast . is null = is null ;
+ return ecast ;
+ }
+ else {
+ if ( expected . sort . constant ) {
+ constant = analyzer UNK . const cast ( location , constant , cast ) ;
+ constant econstant = new constant ( location , constant ) ;
+ econstant . analyze ( locals ) ;
+ if ( ! expected . equals ( econstant . actual ) ) {
+ throw create error ( new illegal state exception ( String ) ) ;
+ }
+ return econstant ;
+ }
+ else if ( this instanceof constant ) {
+ cast ecast = new cast ( location , this , cast ) ;
+ ecast . actual = expected ;
+ return ecast ;
+ }
+ else {
+ constant econstant = new constant ( location , constant ) ;
+ econstant . analyze ( locals ) ;
+ if ( ! actual . equals ( econstant . actual ) ) {
+ throw create error ( new illegal state exception ( String ) ) ;
+ }
+ cast ecast = new cast ( location , econstant , cast ) ;
+ ecast . actual = expected ;
+ return ecast ;
+ }
+ }
+ }
+ }
+comment:
+START @return the new child node for the parent node calling this method . END
+--generate--
+START UNK the UNK to the UNK . END
+START UNK the UNK UNK . END
+START UNK the UNK . END
+START @return the UNK UNK . END
+START @return the UNK to the UNK END
+
+code:
+public boolean set left ( int left ) {
+ return nset left ( mnative render node , left ) ;
+ }
+comment:
+START sets the left position for the display list . END
+--generate--
+START sets the scale of the display list . END
+START sets the axis for the display list . END
+START sets the axis of the display list . END
+START sets the pixels for the display list . END
+START sets the scale of the display list on the axis . END
+
+code:
+public void destroy locked ( runnable callback ) {
+ handler . remove messages ( my handler . msg_ UNK s ) ;
+ if ( callback != null ) {
+ if ( dirty ) {
+ handler . obtain message ( my handler . msg_ UNK s , callback ) . send to target ( ) ;
+ return ;
+ }
+ callback . run ( ) ;
+ }
+ }
+comment:
+START the settings provider must hold its lock when calling here . END
+--generate--
+START called when the task should be UNK . END
+START called when the task should be called on the task . END
+START called when the task should be UNK END
+START called when the task should be called on the task END
+START called when the task should be called on the UNK END
+
+code:
+public synchronized void init scripts framework ( string framework ) {
+ message msg = handler . obtain message ( ) ;
+ msg . obj = framework ;
+ msg . what = UNK msg type . init_ k ;
+ msg . set target ( handler ) ;
+ msg . send to target ( ) ;
+ }
+comment:
+START initialize java script framework @param framework string representation of the framework to be init . END
+--generate--
+START @param UNK the UNK to set END
+START @param UNK the UNK to set . END
+START sets the UNK UNK . END
+START sets the UNK to be UNK . @param UNK the application to UNK END
+START sets the UNK to be UNK . @param UNK END
+
+code:
+@ duplex mode public int get duplex modes ( ) {
+ return UNK modes ;
+ }
+comment:
+START gets the bit mask of supported UNK modes . @return the bit mask of supported UNK modes . END
+--generate--
+START gets the UNK mode . END
+START gets the UNK UNK mode . END
+START gets the UNK UNK mode . @return the UNK mode . END
+START gets the UNK UNK mode . @return the UNK UNK . END
+START gets the UNK mode UNK . END
+
+code:
+public cache . entry get cache entry ( ) {
+ return mcache entry ;
+ }
+comment:
+START returns the annotated cache entry , or null if there is n't one . END
+--generate--
+START returns the entry of the cache . END
+START returns the status of the cache . END
+START returns the status of the service . END
+START returns the shard of the cache . END
+START returns the entry of the cache . @return the cache END
+
+code:
+@ override protected configurable application context get application context ( ) {
+ return new annotation config application context ( enable caching config . class ) ;
+ }
+comment:
+START hook into superclass suite of tests END
+--generate--
+START return the context context . END
+START return a context context to the context . END
+START return the context context to the context . END
+START return a context context to the context . @return the context END
+START return the context context to the context . @return the context END
+
+code:
+public class < v > value type ( ) {
+ return value type ;
+ }
+comment:
+START returns the associated value type . END
+--generate--
+START get the UNK of the UNK UNK . END
+START get the UNK type of the UNK . END
+START get the UNK of the UNK . END
+START get the UNK UNK of the UNK . END
+START get the UNK type of the UNK . @return the UNK END
+
+code:
+static control message UNK message ( short encoded ) {
+ for ( control message cm : control message . values ( ) ) {
+ if ( encoded == cm . code ) return cm ;
+ }
+ return null ;
+ }
+comment:
+START return a control message per an encoded status code @param encoded @return END
+--generate--
+START return a UNK message from the UNK . END
+START return a UNK UNK . END
+START return a UNK message . END
+START return a message UNK . END
+START create a UNK message . END
+
+code:
+private void set items ( @ non null list < idrawer item > drawer items , boolean UNK items ) {
+ if ( original drawer items != null && ! UNK items ) {
+ original drawer items = drawer items ;
+ }
+ mdrawer builder . get item adapter ( ) . set new list ( drawer items ) ;
+ }
+comment:
+START replace the current drawer items with the new array list . @param drawer items @param UNK items END
+--generate--
+START set the drawer item for the current position @param position @param position END
+START set the drawer item for the current position @param position @param drawer position END
+START set the drawer item for the current position @param position END
+START set the drawer item for the current position @param position @param drawer item END
+START set the drawer item for the current position @param position @param drawer drawer drawer END
+
+code:
+protected void loge ( string s ) {
+ log . e ( name , s ) ;
+ }
+comment:
+START log with error attribute @param s is string log END
+--generate--
+START @param UNK the string @param UNK END
+START UNK @param UNK @param string END
+START @param UNK @param string @param UNK END
+START @param UNK @param string END
+START @param UNK the string @param UNK the new UNK END
+
+code:
+public string get prefix ( ) {
+ return this . prefix ;
+ }
+comment:
+START get the prefix used in mappings . @return the prefix END
+--generate--
+START return the factory that should be used to UNK the url . END
+START return the factory that should be used to specify the names . END
+START return the factory that should be used to specify the url . END
+START return the factory that should be used to specify the names to the bean . END
+START return the factory that should be used to specify the names to the bean END
+
+code:
+@ large test public void UNK enable status listener ( ) throws exception {
+ boolean result = false ;
+ string msg = String ;
+ effect = null ;
+ audio effect effect2 = null ;
+ try {
+ create listener looper ( false , true , false ) ;
+ synchronized ( lock ) {
+ try {
+ lock . wait ( DecimalInteger ) ;
+ }
+ catch ( exception e ) {
+ log . e ( g , String ) ;
+ }
+ }
+ assert true ( initialized ) ;
+ effect . set enabled ( true ) ;
+ mis enabled = true ;
+ effect2 = new audio effect ( audio effect . effect_ type_ r , audio effect . effect_ type_ l , DecimalInteger , DecimalInteger ) ;
+ assert not null ( msg + String , effect2 ) ;
+ assert true ( msg + String , effect2 . get enabled ( ) ) ;
+ synchronized ( lock ) {
+ try {
+ effect2 . set enabled ( false ) ;
+ lock . wait ( DecimalInteger ) ;
+ }
+ catch ( exception e ) {
+ log . e ( g , String ) ;
+ }
+ }
+ assert false ( msg + String , mis enabled ) ;
+ result = true ;
+ }
+ catch ( illegal argument exception e ) {
+ msg = msg . concat ( String ) ;
+ loge ( msg , String ) ;
+ }
+ catch ( unsupported operation exception e ) {
+ msg = msg . concat ( String ) ;
+ loge ( msg , String ) ;
+ }
+ catch ( exception e ) {
+ loge ( msg , String + e ) ;
+ }
+ finally {
+ terminate listener looper ( ) ;
+ if ( effect2 != null ) {
+ effect2 . release ( ) ;
+ }
+ }
+ assert true ( msg , result ) ;
+ }
+comment:
+START test case NUMBER test enable status listener END
+--generate--
+START test test test = NUMBER END
+START test case NUMBER test audio listener and UNK UNK END
+START test case NUMBER test audio listener and UNK END
+START test case NUMBER test audio listener and change UNK END
+START test case NUMBER test audio listener and get UNK END
+
+code:
+public static < t extends UNK > pool < t > simple ( int size , factory < t > factory ) {
+ return build ( new simple pool < t > ( size ) , factory ) ;
+ }
+comment:
+START @param <t> the type of object the pool will contains . END
+--generate--
+START @param type the value of the cache . END
+START @param type the new value of the instance . END
+START @param type the new value of the instance END
+START @param type the value of the cache END
+START @param instance the new value of the instance END
+
+code:
+void remove uid ( int uid ) {
+ synchronized ( stats ) {
+ stats . remove uid stats locked ( uid ) ;
+ }
+ }
+comment:
+START remove a uid from the battery stats and battery stats ' external dependencies . END
+--generate--
+START remove a listener for the user . END
+START remove a listener for the device . END
+START remove a listener for the UNK . END
+START remove a listener for the user . @param event the event to remove END
+START remove a listener for the user END
+
+code:
+protected string get no such message exception description ( no such message exception ex ) {
+ return ex . get message ( ) ;
+ }
+comment:
+START return default exception message . END
+--generate--
+START return the message message for the message . END
+START return the message message for the message message . END
+START return the message for the message . END
+START return an message message for the message . END
+START return a message message for the message . END
+
+code:
+@ override public user put ( string key , user user ) {
+ string previous user = sp . get string ( key , null ) ;
+ shared preferences . editor editor = sp . edit ( ) ;
+ string user UNK and encrypted ;
+ try {
+ user UNK and encrypted = cipher client . encrypt ( user . to json ( ) ) ;
+ }
+ catch ( key store exception e ) {
+ e . print stack trace ( ) ;
+ return null ;
+ }
+ editor . put string ( key , user UNK and encrypted ) ;
+ editor . apply ( ) ;
+ if ( user store . current_ user_ y . equals ( key ) ) {
+ cached current user = user ;
+ }
+ if ( previous user != null ) {
+ try {
+ string user UNK and UNK = cipher client . decrypt ( previous user ) ;
+ return user . from json ( user UNK and UNK ) ;
+ }
+ catch ( key store exception e ) {
+ e . print stack trace ( ) ;
+ return null ;
+ }
+ }
+ else {
+ return null ;
+ }
+ }
+comment:
+START @param user we want to save . END
+--generate--
+START called when a key is UNK . END
+START called when the key is a UNK . END
+START called when a key is a UNK . END
+START called when the key is a UNK . @param key the key to be UNK . END
+START called when the key is a UNK . @param key the key to be UNK END
+
+code:
+public org . jetbrains . kotlin . serialization . debug proto buf . property . builder get property builder ( int index ) {
+ return get property field builder ( ) . get builder ( index ) ;
+ }
+comment:
+START repeated . org.jetbrains.kotlin.serialization. property property = NUMBER END
+--generate--
+START repeated . org.jetbrains.kotlin.serialization. property property = NUMBER END
+START repeated . org.jetbrains.kotlin.serialization. UNK property = NUMBER END
+START repeated . org.jetbrains.kotlin.serialization. type property = NUMBER END
+START optional . org.jetbrains.kotlin.serialization. property property = NUMBER END
+START repeated . org.jetbrains.kotlin.serialization. function property = NUMBER END
+
+code:
+private boolean has backlog ( ) {
+ final long cursor = ring buffer . get cursor ( ) ;
+ for ( final sequence consumer : consumer repository . get last sequence in chain ( false ) ) {
+ if ( cursor > consumer . get ( ) ) {
+ return true ;
+ }
+ }
+ return false ;
+ }
+comment:
+START UNK if all messages have been consumed by all event processors END
+--generate--
+START returns true if the view is UNK . END
+START returns true if the view is UNK , false otherwise . END
+START returns true if the state is UNK . END
+START returns true if the view is UNK , false otherwise END
+START returns true if the view is UNK . @return true if the UNK is been UNK . END
+
+code:
+public void set entity type filters ( type filter ... entity type filters ) {
+ this . entity type filters = entity type filters ;
+ }
+comment:
+START specify custom type filters for UNK scanning for entity classes . END
+--generate--
+START specify whether we can not be null . END
+START specify whether we can not be null . @hide END
+START specify whether or not use to be used for the UNK bean . END
+START specify whether or not use to be used for the UNK . END
+START specify whether or not use to be used for UNK UNK . END
+
+code:
+public resource set estimate resource UNK local ( ) {
+ return resource set . create with ram cpu io ( DecimalInteger , DecimalFloatingPoint , DecimalFloatingPoint ) ;
+ }
+comment:
+START UNK resource UNK when this action is executed locally . END
+--generate--
+START sets the list of UNK UNK that are used for UNK UNK . END
+START sets the list of UNK UNK that are used for UNK . END
+START sets the list of UNK UNK that are used by UNK . END
+START sets the list of UNK UNK that are used for UNK by UNK . END
+START sets the list of UNK UNK that are used for UNK by UNK UNK . END
+
+code:
+public void set placeholder prefix ( string placeholder prefix ) {
+ this . placeholder prefix = placeholder prefix ;
+ }
+comment:
+START set the prefix that a placeholder string starts with . END
+--generate--
+START set the resolver that should be used to apply the locale . END
+START set the resolver that should be used to apply the description . END
+START set the resolver that should be used to apply the schema . END
+START set the resolver that should be used to apply the database . END
+START set the resolver that should be used to apply the schema END
+
+code:
+public void set alarms active ( boolean active ) {
+ device idle controller . this . set alarms active ( active ) ;
+ }
+comment:
+START UNK from alarm manager . END
+--generate--
+START set whether the device should be UNK in the device . END
+START set whether the device should be UNK . END
+START set whether the device is enabled . END
+START set whether the device should be UNK in the device . @param device END
+START set whether the device should be UNK in the device . @param device the device END
+
+code:
+public static void check argument ( boolean expression , @ nullable object error message ) {
+ if ( ! expression ) {
+ throw new illegal argument exception ( string . value of ( error message ) ) ;
+ }
+ }
+comment:
+START ensures the truth of an expression involving one or more parameters to the calling method . END
+--generate--
+START ensures the truth of an expression involving one or more parameters to the calling method . END
+START ensures the truth of an expression involving one or more one to the calling method . END
+START ensures the truth of an expression involving one or more more parameters to the calling method . END
+START ensures the truth of an expression involving one or more parameters to the illegal method . END
+START ensures the truth of an expression involving one or more parameters to the more calling . END
+
+code:
+@ visible for testing static boolean is valid ( char c ) {
+ return ( c >= String && c <= String ) || ( c >= String && c <= String ) || ( c >= String && c <= String ) || c == String || c == String ;
+ }
+comment:
+START checks whether a character is valid on bugreport names . END
+--generate--
+START returns true if the code is UNK . END
+START returns true if the code is UNK , false otherwise . END
+START returns true if the ' is UNK . END
+START returns true if the code is UNK END
+START returns true if the ' is UNK END
+
+code:
+public void set session factory ( session factory session factory ) {
+ this . session factory = session factory ;
+ }
+comment:
+START set the session factory that this instance should manage transactions for . END
+--generate--
+START set the rmi bean factory to use for this registry . END
+START set the rmi bean factory to use for this factory . END
+START set the rmi bean factory to use for this manager . END
+START set the rmi bean factory to use for this resolver . END
+START set the rmi bean factory to use for this factory that should be used for . END
+
+code:
+@ deprecated public void ellipse ( float width , float height , float inner width , float inner height , int divisions , float center x , float center y , float center z , float normal x , float normal y , float normal z , float angle from , float angle to ) ;
+comment:
+START @deprecated use ellipse shape builder.build instead . END
+--generate--
+START @deprecated use shape builder.build instead . END
+START @deprecated use shape shape builder.build instead . END
+START @deprecated use shape builder.build builder.build instead . END
+START @deprecated use shape shape shape . END
+START @deprecated use builder.build instead . END
+
+code:
+protected boolean is use strict UNK ( ) {
+ return this . use strict UNK ;
+ }
+comment:
+START return whether strict UNK for attributes is enabled . END
+--generate--
+START return whether the UNK should be used for UNK UNK . END
+START return whether to be UNK to UNK UNK . END
+START return whether the UNK should be used to UNK UNK . END
+START return whether the UNK should be used for UNK UNK END
+START return whether the UNK should be used to UNK the UNK END
+
+code:
+@ nullable public string get UNK request id ( ) {
+ if ( holder != null ) {
+ return holder . impl . get UNK request id ( ) ;
+ }
+ else {
+ return null ;
+ }
+ }
+comment:
+START most callers wo n't need this . END
+--generate--
+START returns the user id for the user . END
+START returns the user id for the task . END
+START returns the user id for the user UNK . END
+START returns the user id for the user , if any . END
+START returns the user id for the user , or null if the user is not . END
+
+code:
+public void load sound effects ( ) {
+ iaudio service service = get service ( ) ;
+ try {
+ service . load sound effects ( ) ;
+ }
+ catch ( remote exception e ) {
+ throw e . rethrow from system server ( ) ;
+ }
+ }
+comment:
+START load sound effects . this method must be called when sound effects are enabled . END
+--generate--
+START called for UNK UNK . END
+START called for the UNK UNK . END
+START called for UNK UNK . @hide END
+START called for UNK . END
+START called for UNK . @hide END
+
+code:
+public org . jetbrains . kotlin . serialization . proto buf . type alias get type alias ( int index ) {
+ return type alias_ . get ( index ) ;
+ }
+comment:
+START repeated . org.jetbrains.kotlin.serialization. type alias type_alias = NUMBER END
+--generate--
+START repeated . org.jetbrains.kotlin.serialization. type type_alias = NUMBER END
+START repeated . org.jetbrains.kotlin.serialization. type alias type_alias = NUMBER END
+START repeated . org.jetbrains.kotlin.serialization. type upper_bound = NUMBER END
+START repeated . org.jetbrains.kotlin.serialization. type supertype = NUMBER END
+START repeated . org.jetbrains.kotlin.serialization. type alias alias = NUMBER END
+
+code:
+public void set response code ( int response code ) {
+ this . response code = response code ;
+ }
+comment:
+START sets the response code for this message . @param response code the response code END
+--generate--
+START the message UNK for this message . END
+START the message UNK for this response . END
+START the message UNK for this request . END
+START the message UNK for this exception . END
+START the message UNK for this UNK . END
+
+code:
+public path fragment get crosstool top path fragment ( ) {
+ return crosstool top path fragment ;
+ }
+comment:
+START returns the path of the crosstool . END
+--generate--
+START returns the directory path for the rule directory . END
+START returns the path to the directory directory . END
+START returns the directory path for the rule directory . @return the directory directory to UNK . END
+START returns the directory path for the rule directory . @return the directory directory . END
+START returns the directory path for the rule 's UNK . END
+
+code:
+public void set value ( object value ) {
+ this . value = value ;
+ }
+comment:
+START set the value to transform , using the appropriate property editor from the UNK bind tag . END
+--generate--
+START may be a runtime expression . END
+START specify the value for the object . END
+START specify the value for the UNK . END
+START specify the value for the code . END
+START may be a runtime expression END
+
+code:
+public void set remove on cancel policy ( boolean remove on cancel policy ) {
+ this . remove on cancel policy = remove on cancel policy ;
+ if ( this . scheduled executor instanceof scheduled thread pool executor ) {
+ ( ( scheduled thread pool executor ) this . scheduled executor ) . set remove on cancel policy ( remove on cancel policy ) ;
+ }
+ else if ( remove on cancel policy && this . scheduled executor != null ) {
+ logger . info ( String ) ;
+ }
+ }
+comment:
+START <b> this setting can be modified at runtime , for example through UNK . END
+--generate--
+START sets the UNK UNK for this view . END
+START sets the UNK UNK for the task . END
+START sets the call for UNK UNK . END
+START sets the UNK UNK for the task END
+START sets the UNK UNK for this view . @param mode END
+
+code:
+public void compile and run ( ) throws exception {
+ synchronized ( this . monitor ) {
+ try {
+ stop ( ) ;
+ object [ ] compiled sources = compile ( ) ;
+ monitor for changes ( ) ;
+ this . run thread = new run thread ( compiled sources ) ;
+ this . run thread . start ( ) ;
+ this . run thread . join ( ) ;
+ }
+ catch ( exception ex ) {
+ if ( this . file watch thread == null ) {
+ throw ex ;
+ }
+ else {
+ ex . print stack trace ( ) ;
+ }
+ }
+ }
+ }
+comment:
+START compile and run the application . @throws exception on error END
+--generate--
+START UNK the UNK UNK . END
+START UNK the UNK . END
+START the UNK UNK . END
+START UNK the UNK UNK END
+START UNK the UNK of the UNK . END
+
+code:
+public org . jetbrains . kotlin . serialization . debug proto buf . type alias . builder get type alias builder ( int index ) {
+ return get type alias field builder ( ) . get builder ( index ) ;
+ }
+comment:
+START repeated . org.jetbrains.kotlin.serialization. type alias type_alias = NUMBER END
+--generate--
+START repeated . org.jetbrains.kotlin.serialization. type type_alias = NUMBER END
+START repeated . org.jetbrains.kotlin.serialization. type alias type_alias = NUMBER END
+START repeated . org.jetbrains.kotlin.serialization. type upper_bound = NUMBER END
+START repeated . org.jetbrains.kotlin.serialization. type alias alias = NUMBER END
+START repeated . org.jetbrains.kotlin.serialization. type supertype = NUMBER END
+
+code:
+public boolean is axis line UNK line enabled ( ) {
+ return maxis line dash path effect == null ? false : true ;
+ }
+comment:
+START returns true if the axis UNK effect is enabled , false if not . @return END
+--generate--
+START returns true if the UNK UNK is UNK , false otherwise . END
+START returns true if the UNK UNK is not UNK , false otherwise . END
+START returns true if the UNK UNK is UNK , false if not . END
+START returns true if the UNK UNK is UNK , false if not UNK END
+START returns true if the UNK UNK is UNK , false if not UNK the UNK END
+
+code:
+public static method find bridged method ( method bridge method ) {
+ if ( bridge method == null || ! bridge method . is bridge ( ) ) {
+ return bridge method ;
+ }
+ list < method > candidate methods = new array list < > ( ) ;
+ method [ ] methods = reflection utils . get all declared methods ( bridge method . get declaring class ( ) ) ;
+ for ( method candidate method : methods ) {
+ if ( is bridged candidate for ( candidate method , bridge method ) ) {
+ candidate methods . add ( candidate method ) ;
+ }
+ }
+ if ( candidate methods . size ( ) == DecimalInteger ) {
+ return candidate methods . get ( DecimalInteger ) ;
+ }
+ method bridged method = search candidates ( candidate methods , bridge method ) ;
+ if ( bridged method != null ) {
+ return bridged method ;
+ }
+ else {
+ return bridge method ;
+ }
+ }
+comment:
+START callers are not required to check for UNK before calling this method . END
+--generate--
+START return the handle of the given method , if any . END
+START return the handle for the given method , if any . END
+START return the handle of the given class , if any . END
+START return the handle of the given method . END
+START return the handle for the given method . END
+
+code:
+public void record UNK history ( network stats history input ) {
+ record history ( input , long . min_ e , long . max_ e ) ;
+ }
+comment:
+START usually for combining together stats for external reporting . END
+--generate--
+START called when the UNK UNK the UNK UNK . END
+START called when the UNK UNK in the UNK UNK . END
+START called when the UNK UNK UNK in the UNK . END
+START called when the UNK UNK UNK in a UNK . END
+START called when the UNK UNK the UNK UNK . @param UNK the UNK UNK UNK . END
+
+code:
+public static void UNK z ( @ float range ( from = DecimalFloatingPoint , to = DecimalInteger ) final double l , @ float range ( from = - DecimalInteger , to = DecimalInteger ) final double a , @ float range ( from = - DecimalInteger , to = DecimalInteger ) final double b , @ non null double [ ] out UNK ) {
+ final double UNK = ( l + DecimalInteger ) / DecimalInteger ;
+ final double UNK = a / DecimalInteger + UNK ;
+ final double UNK = UNK - b / DecimalInteger ;
+ double tmp = math . pow ( UNK , DecimalInteger ) ;
+ final double UNK = tmp > xyz_ n ? tmp : ( DecimalInteger * UNK - DecimalInteger ) / xyz_ a ;
+ final double UNK = l > xyz_ a * xyz_ n ? math . pow ( UNK , DecimalInteger ) : l / xyz_ a ;
+ tmp = math . pow ( UNK , DecimalInteger ) ;
+ final double UNK = tmp > xyz_ n ? tmp : ( DecimalInteger * UNK - DecimalInteger ) / xyz_ a ;
+ out UNK [ DecimalInteger ] = UNK * xyz_ white_ reference_ x ;
+ out UNK [ DecimalInteger ] = UNK * xyz_ white_ reference_ y ;
+ out UNK [ DecimalInteger ] = UNK * xyz_ white_ reference_ z ;
+ }
+comment:
+START converts a color from UNK UNK to UNK UNK representation . END
+--generate--
+START UNK the UNK UNK . END
+START @param UNK the UNK of the UNK END
+START @param UNK the UNK UNK END
+START @param UNK the UNK END
+START UNK the UNK UNK . @param UNK the UNK END
+
